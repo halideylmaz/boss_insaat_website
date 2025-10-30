@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BOSS İnşaat - Professional Construction Company">
+    <title>BOSS İnşaat - Construction Company</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Font Awesome for additional icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    
+    <!-- Navigation Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img src="images/logo.jpg" alt="BOSS İnşaat Logo" class="logo">
+                <span class="brand-text">BOSS İNŞAAT</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" data-translate="nav.home">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" data-translate="nav.about">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services" data-translate="nav.services">Hizmetlerimiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects" data-translate="nav.projects">Projelerimiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#equipment" data-translate="nav.equipment">Makine Parkı</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-translate="nav.contact">İletişim</a>
+                    </li>
+                </ul>
+                
+                <!-- Language Switcher -->
+                <div class="language-switcher ms-3">
+                    <button class="btn btn-sm btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                        <i class="bi bi-globe"></i> <span id="currentLang">TR</span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="javascript:void(0)" onclick="changeLanguage('tr')">🇹🇷 Türkçe</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)" onclick="changeLanguage('en')">🇬🇧 English</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)" onclick="changeLanguage('it')">🇮🇹 Italiano</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)" onclick="changeLanguage('ar')">🇸🇦 العربية</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title" data-translate="hero.title">Güvenilir ve Profesyonel İnşaat Çözümleri</h1>
+            <p class="hero-subtitle" data-translate="hero.subtitle">Yıllık deneyimimiz ve uzman kadromuzla projelerinizi hayata geçiriyoruz</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary btn-lg" data-translate="hero.viewProjects">Projelerimizi Görüntüle</a>
+                <a href="#contact" class="btn btn-outline-light btn-lg" data-translate="hero.contact">İletişime Geçin</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="bi bi-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title" data-translate="about.title">Hakkımızda</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle" data-translate="about.subtitle">BOSS İnşaat olarak sektörde öncü konumdayız</p>
+            </div>
+            
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="images/about-placeholder.jpg" alt="About BOSS" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                    <h3 data-translate="about.heading">Kalite ve Güvenilirlik Bizim İşimiz</h3>
+                    <p data-translate="about.description1">
+                        BOSS İnşaat, modern inşaat teknolojileri ve yıllarca süren deneyimimizle müşterilerimize en kaliteli hizmeti sunmaktayız. Havaalanı, hastane, yol yapımı gibi büyük ölçekli projelerde uzmanlaşmış bir ekiple çalışıyoruz.
+                    </p>
+                    <p data-translate="about.description2">
+                        ISO sertifikalarımız ve tamamlanmış projelerimiz, kalite standartlarımızın en büyük kanıtıdır. Her projede müşteri memnuniyeti ve kaliteyi ön planda tutuyoruz.
+                    </p>
+                    
+                    <div class="row mt-4">
+                        <div class="col-6 mb-3">
+                            <div class="stat-box">
+                                <i class="bi bi-award-fill"></i>
+                                <h4>ISO</h4>
+                                <p data-translate="about.certified">Sertifikalı</p>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="stat-box">
+                                <i class="bi bi-buildings-fill"></i>
+                                <h4>10+</h4>
+                                <p data-translate="about.projects">Tamamlanan Proje</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-box">
+                                <i class="bi bi-tools"></i>
+                                <h4>50+</h4>
+                                <p data-translate="about.equipment">Makine Parkı</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-box">
+                                <i class="bi bi-people-fill"></i>
+                                <h4>100+</h4>
+                                <p data-translate="about.employees">Uzman Personel</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title" data-translate="services.title">Hizmetlerimiz</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle" data-translate="services.subtitle">Geniş kapsamlı inşaat hizmetleri sunuyoruz</p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Service 1: Road Construction -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-road"></i>
+                        </div>
+                        <h3 data-translate="services.road.title">Yol Yapımı</h3>
+                        <p data-translate="services.road.description">
+                            Otoyollar, köprüler ve altyapı projeleri için profesyonel yol yapım hizmetleri sunuyoruz.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Service 2: Airport Construction -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-plane"></i>
+                        </div>
+                        <h3 data-translate="services.airport.title">Havaalanı İnşaatı</h3>
+                        <p data-translate="services.airport.description">
+                            Havaalanı pistleri, terminaller ve ilgili altyapı projelerinde uzman ekibimizle hizmet veriyoruz.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Service 3: Hospital Construction -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-hospital"></i>
+                        </div>
+                        <h3 data-translate="services.hospital.title">Hastane Yapımı</h3>
+                        <p data-translate="services.hospital.description">
+                            Sağlık tesisleri ve hastane binalarının inşaatında yüksek kalite standartları ile çalışıyoruz.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Service 4: Lime Stabilization -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-flask"></i>
+                        </div>
+                        <h3 data-translate="services.stabilization.title">Kireç Stabilizasyonu</h3>
+                        <p data-translate="services.stabilization.description">
+                            Zemin iyileştirme ve stabilizasyon işlerinde modern teknikler kullanıyoruz.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Service 5: Infrastructure -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-city"></i>
+                        </div>
+                        <h3 data-translate="services.infrastructure.title">Altyapı Projeleri</h3>
+                        <p data-translate="services.infrastructure.description">
+                            Kanalizasyon, su tesisatı ve elektrik altyapısı gibi projeler için kapsamlı hizmetler.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Service 6: Heavy Equipment -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-truck-monster"></i>
+                        </div>
+                        <h3 data-translate="services.heavyEquipment.title">Ağır İş Makinesi</h3>
+                        <p data-translate="services.heavyEquipment.description">
+                            Modern ve güçlü iş makineleri parkurumuzla her türlü projeye hazırız.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title" data-translate="projects.title">Projelerimiz</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle" data-translate="projects.subtitle">Başarıyla tamamladığımız projeler</p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Project 1: Airport -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/airport1.png" alt="Airport Project">
+                            <div class="project-overlay">
+                                <button class="btn btn-light btn-sm" onclick="openProjectModal('airport')">
+                                    <i class="bi bi-eye"></i> <span data-translate="projects.viewDetails">Detayları Gör</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 data-translate="projects.airport.title">Akwa Ibom Uluslararası Havaalanı Pist ve Terminal Yapımı</h3>
+                            <p data-translate="projects.airport.description">Modern havaalanı pisti ve terminal yapım projesi</p>
+                            <div class="project-meta">
+                                <span><i class="bi bi-geo-alt"></i> <span data-translate="projects.airport.location">Akwa Ibom, Nigeria</span></span>
+                                <span><i class="bi bi-calendar"></i> 2009</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2: Hospital -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/hospital1.png" alt="Hospital Project">
+                            <div class="project-overlay">
+                                <button class="btn btn-light btn-sm" onclick="openProjectModal('hospital')">
+                                    <i class="bi bi-eye"></i> <span data-translate="projects.viewDetails">Detayları Gör</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 data-translate="projects.hospital.title">20. Yıl Hastanesi</h3>
+                            <p data-translate="projects.hospital.description">Tam donanımlı modern hastane kompleksi</p>
+                            <div class="project-meta">
+                                <span><i class="bi bi-geo-alt"></i> <span data-translate="projects.hospital.location">Nigeria</span></span>
+                                <span><i class="bi bi-calendar"></i> 2015</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3: East-West Road -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/road1.png" alt="Road Project">
+                            <div class="project-overlay">
+                                <button class="btn btn-light btn-sm" onclick="openProjectModal('road')">
+                                    <i class="bi bi-eye"></i> <span data-translate="projects.viewDetails">Detayları Gör</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 data-translate="projects.road.title">Doğu-Batı Karayolunun Çift Yönlü Hale Getirilmesi</h3>
+                            <p data-translate="projects.road.description">Büyük ölçekli otoyol yapım projesi</p>
+                            <div class="project-meta">
+                                <span><i class="bi bi-geo-alt"></i> <span data-translate="projects.road.location">Nigeria</span></span>
+                                <span><i class="bi bi-calendar"></i> 2009</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipment Section -->
+    <section id="equipment" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title" data-translate="equipment.title">Makine Parkı</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle" data-translate="equipment.subtitle">Modern ve güçlü iş makineleri parkurumuz</p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Equipment items will be loaded dynamically -->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="equipment-card">
+                        <i class="fas fa-truck-moving"></i>
+                        <h4 data-translate="equipment.excavator">Ekskavatör</h4>
+                        <p>10+ adet</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="equipment-card">
+                        <i class="fas fa-truck-monster"></i>
+                        <h4 data-translate="equipment.bulldozer">Buldozer</h4>
+                        <p>8+ adet</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="equipment-card">
+                        <i class="fas fa-truck"></i>
+                        <h4 data-translate="equipment.truck">Kamyon</h4>
+                        <p>15+ adet</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="equipment-card">
+                        <i class="fas fa-compress-arrows-alt"></i>
+                        <h4 data-translate="equipment.compactor">Silindir</h4>
+                        <p>5+ adet</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="equipment-card">
+                        <i class="fas fa-tractor"></i>
+                        <h4 data-translate="equipment.grader">Greyder</h4>
+                        <p>6+ adet</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="equipment-card">
+                        <i class="fas fa-tools"></i>
+                        <h4 data-translate="equipment.loader">Yükleyici</h4>
+                        <p>7+ adet</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="equipment-card">
+                        <i class="fas fa-hard-hat"></i>
+                        <h4 data-translate="equipment.crane">Vinç</h4>
+                        <p>4+ adet</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="equipment-card">
+                        <i class="fas fa-cog"></i>
+                        <h4 data-translate="equipment.other">Diğer</h4>
+                        <p>20+ adet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-dark text-light">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title text-light" data-translate="contact.title">İletişim</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle text-light" data-translate="contact.subtitle">Bizimle iletişime geçin</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-5">
+                    <div class="contact-info">
+                        <h3 data-translate="contact.info">İletişim Bilgileri</h3>
+                        <p data-translate="contact.infoText">Projeleriniz için bizimle iletişime geçebilirsiniz.</p>
+                        
+                        <div class="contact-item">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <div>
+                                <h5 data-translate="contact.address">Adres</h5>
+                                <p>Kızılırmak Mah. Dumlupınar Bulvarı Next Level No:3A/10 Çankaya, Ankara, Türkiye</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="bi bi-telephone-fill"></i>
+                            <div>
+                                <h5 data-translate="contact.phone">Telefon</h5>
+                                <p>+90 532 568 42 56</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="bi bi-envelope-fill"></i>
+                            <div>
+                                <h5 data-translate="contact.email">E-posta</h5>
+                                <p>info@bossinsaat.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links mt-4">
+                            <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-7">
+                    <form id="contactForm" class="contact-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Adınız" data-translate-placeholder="contact.form.name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="E-posta" data-translate-placeholder="contact.form.email" required>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="Konu" data-translate-placeholder="contact.form.subject" required>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" rows="5" placeholder="Mesajınız" data-translate-placeholder="contact.form.message" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary btn-lg w-100">
+                                    <i class="bi bi-send"></i> <span data-translate="contact.form.send">Mesaj Gönder</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div id="formMessage" class="mt-3"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="modal fade" id="projectModal" tabindex="-1">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="projectModalTitle"></h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Image Gallery (Left Side) -->
+                        <div class="col-lg-6">
+                            <div class="project-gallery">
+                                <div class="main-image-container">
+                                    <img id="projectMainImage" src="" alt="Project" class="img-fluid rounded">
+                                    <button class="gallery-prev" onclick="changeProjectImage(-1)">
+                                        <i class="bi bi-chevron-left"></i>
+                                    </button>
+                                    <button class="gallery-next" onclick="changeProjectImage(1)">
+                                        <i class="bi bi-chevron-right"></i>
+                                    </button>
+                                    <div class="image-counter">
+                                        <span id="currentImageIndex">1</span> / <span id="totalImages">1</span>
+                                    </div>
+                                </div>
+                                <div class="thumbnail-container" id="thumbnailContainer">
+                                    <!-- Thumbnails will be added dynamically -->
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Project Details (Right Side) -->
+                        <div class="col-lg-6">
+                            <div class="project-details">
+                                <div class="detail-item">
+                                    <i class="bi bi-geo-alt-fill text-primary"></i>
+                                    <div>
+                                        <h5 data-translate="projects.location">Konum</h5>
+                                        <p id="projectLocation"></p>
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="bi bi-calendar-fill text-primary"></i>
+                                    <div>
+                                        <h5 data-translate="projects.year">Yıl</h5>
+                                        <p id="projectYear"></p>
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="bi bi-file-text-fill text-primary"></i>
+                                    <div>
+                                        <h5 data-translate="projects.subtitle">Proje Detayları</h5>
+                                        <p id="projectDescription"></p>
+                                        <p id="projectDetails" class="mt-3"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p>&copy; 2025 BOSS İnşaat. <span data-translate="footer.rights">Tüm hakları saklıdır.</span></p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p data-translate="footer.designed">Modern İnşaat Çözümleri</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
+

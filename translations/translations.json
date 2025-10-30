@@ -1,0 +1,463 @@
+{
+  "tr": {
+    "nav": {
+      "home": "Ana Sayfa",
+      "about": "Hakkımızda",
+      "services": "Hizmetlerimiz",
+      "projects": "Projelerimiz",
+      "equipment": "Makine Parkı",
+      "contact": "İletişim"
+    },
+    "hero": {
+      "title": "Güvenilir ve Profesyonel İnşaat Çözümleri",
+      "subtitle": "Yıllık deneyimimiz ve uzman kadromuzla projelerinizi hayata geçiriyoruz",
+      "viewProjects": "Projelerimizi Görüntüle",
+      "contact": "İletişime Geçin"
+    },
+    "about": {
+      "title": "Hakkımızda",
+      "subtitle": "BOSS İnşaat olarak sektörde öncü konumdayız",
+      "heading": "Kalite ve Güvenilirlik Bizim İşimiz",
+      "description1": "BOSS İnşaat, modern inşaat teknolojileri ve yıllarca süren deneyimimizle müşterilerimize en kaliteli hizmeti sunmaktayız. Havaalanı, hastane, yol yapımı gibi büyük ölçekli projelerde uzmanlaşmış bir ekiple çalışıyoruz.",
+      "description2": "ISO sertifikalarımız ve tamamlanmış projelerimiz, kalite standartlarımızın en büyük kanıtıdır. Her projede müşteri memnuniyeti ve kaliteyi ön planda tutuyoruz.",
+      "certified": "Sertifikalı",
+      "projects": "Tamamlanan Proje",
+      "equipment": "Makine Parkı",
+      "employees": "Uzman Personel"
+    },
+    "services": {
+      "title": "Hizmetlerimiz",
+      "subtitle": "Geniş kapsamlı inşaat hizmetleri sunuyoruz",
+      "road": {
+        "title": "Yol Yapımı",
+        "description": "Otoyollar, köprüler ve altyapı projeleri için profesyonel yol yapım hizmetleri sunuyoruz."
+      },
+      "airport": {
+        "title": "Havaalanı İnşaatı",
+        "description": "Havaalanı pistleri, terminaller ve ilgili altyapı projelerinde uzman ekibimizle hizmet veriyoruz."
+      },
+      "hospital": {
+        "title": "Hastane Yapımı",
+        "description": "Sağlık tesisleri ve hastane binalarının inşaatında yüksek kalite standartları ile çalışıyoruz."
+      },
+      "stabilization": {
+        "title": "Kireç Stabilizasyonu",
+        "description": "Zemin iyileştirme ve stabilizasyon işlerinde modern teknikler kullanıyoruz."
+      },
+      "infrastructure": {
+        "title": "Altyapı Projeleri",
+        "description": "Kanalizasyon, su tesisatı ve elektrik altyapısı gibi projeler için kapsamlı hizmetler."
+      },
+      "heavyEquipment": {
+        "title": "Ağır İş Makinesi",
+        "description": "Modern ve güçlü iş makineleri parkurumuzla her türlü projeye hazırız."
+      }
+    },
+    "projects": {
+      "title": "Projelerimiz",
+      "subtitle": "Başarıyla tamamladığımız projeler",
+      "viewDetails": "Detayları Gör",
+      "close": "Kapat",
+      "location": "Konum",
+      "year": "Yıl",
+      "airport": {
+        "title": "Akwa Ibom Uluslararası Havaalanı Pist ve Terminal Yapımı",
+        "description": "Modern havaalanı pisti ve terminal yapım projesi",
+        "location": "Akwa Ibom, Nigeria",
+        "details": "Havaalanı pistin ve terminalin tam inşaatı dahil olmak üzere kapsamlı altyapı projesi."
+      },
+      "hospital": {
+        "title": "20. Yıl Hastanesi",
+        "description": "Tam donanımlı modern hastane kompleksi",
+        "location": "Nigeria",
+        "details": "Modern sağlık tesisleri ve ekipmanlarıyla donatılmış tam kapasiteli hastane projesi."
+      },
+      "road": {
+        "title": "Doğu-Batı Karayolunun Çift Yönlü Hale Getirilmesi",
+        "description": "Büyük ölçekli otoyol yapım projesi",
+        "location": "Nigeria",
+        "details": "Doğu-Batı karayolunun modernizasyonu ve çift yönlü hale getirilmesi projesi."
+      }
+    },
+    "equipment": {
+      "title": "Makine Parkı",
+      "subtitle": "Modern ve güçlü iş makineleri parkurumuz",
+      "excavator": "Ekskavatör",
+      "bulldozer": "Buldozer",
+      "truck": "Kamyon",
+      "compactor": "Silindir",
+      "grader": "Greyder",
+      "loader": "Yükleyici",
+      "crane": "Vinç",
+      "other": "Diğer"
+    },
+    "contact": {
+      "title": "İletişim",
+      "subtitle": "Bizimle iletişime geçin",
+      "info": "İletişim Bilgileri",
+      "infoText": "Projeleriniz için bizimle iletişime geçebilirsiniz.",
+      "address": "Adres",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "form": {
+        "name": "Adınız",
+        "email": "E-posta",
+        "subject": "Konu",
+        "message": "Mesajınız",
+        "send": "Mesaj Gönder",
+        "success": "Mesajınız başarıyla gönderildi!",
+        "error": "Bir hata oluştu. Lütfen tekrar deneyin."
+      }
+    },
+    "footer": {
+      "rights": "Tüm hakları saklıdır.",
+      "designed": "Modern İnşaat Çözümleri"
+    }
+  },
+  "en": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "projects": "Projects",
+      "equipment": "Equipment",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "Reliable and Professional Construction Solutions",
+      "subtitle": "Bringing your projects to life with years of experience and expert team",
+      "viewProjects": "View Our Projects",
+      "contact": "Contact Us"
+    },
+    "about": {
+      "title": "About Us",
+      "subtitle": "BOSS Construction - Leading the industry",
+      "heading": "Quality and Reliability is Our Business",
+      "description1": "BOSS Construction provides the highest quality service to our customers with modern construction technologies and years of experience. We work with a specialized team on large-scale projects such as airports, hospitals, and road construction.",
+      "description2": "Our ISO certifications and completed projects are the greatest proof of our quality standards. We prioritize customer satisfaction and quality in every project.",
+      "certified": "Certified",
+      "projects": "Completed Projects",
+      "equipment": "Equipment Fleet",
+      "employees": "Expert Staff"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "We offer comprehensive construction services",
+      "road": {
+        "title": "Road Construction",
+        "description": "We provide professional road construction services for highways, bridges and infrastructure projects."
+      },
+      "airport": {
+        "title": "Airport Construction",
+        "description": "We serve with our expert team on airport runway, terminal and related infrastructure projects."
+      },
+      "hospital": {
+        "title": "Hospital Construction",
+        "description": "We work with high quality standards in the construction of healthcare facilities and hospital buildings."
+      },
+      "stabilization": {
+        "title": "Lime Stabilization",
+        "description": "We use modern techniques in soil improvement and stabilization works."
+      },
+      "infrastructure": {
+        "title": "Infrastructure Projects",
+        "description": "Comprehensive services for projects such as sewerage, water installation and electricity infrastructure."
+      },
+      "heavyEquipment": {
+        "title": "Heavy Equipment",
+        "description": "We are ready for all kinds of projects with our modern and powerful machinery fleet."
+      }
+    },
+    "projects": {
+      "title": "Our Projects",
+      "subtitle": "Successfully completed projects",
+      "viewDetails": "View Details",
+      "close": "Close",
+      "location": "Location",
+      "year": "Year",
+      "airport": {
+        "title": "Akwa Ibom International Airport Runway and Terminal Construction",
+        "description": "Modern airport runway and terminal construction project",
+        "location": "Akwa Ibom, Nigeria",
+        "details": "Comprehensive infrastructure project including complete construction of airport runway and terminal facilities."
+      },
+      "hospital": {
+        "title": "20th Anniversary Hospital",
+        "description": "Fully equipped modern hospital complex",
+        "location": "Nigeria",
+        "details": "Full-capacity hospital project equipped with modern healthcare facilities and equipment."
+      },
+      "road": {
+        "title": "Dualization of East-West Road",
+        "description": "Large-scale highway construction project",
+        "location": "Nigeria",
+        "details": "Modernization and dualization project of the East-West highway."
+      }
+    },
+    "equipment": {
+      "title": "Equipment Fleet",
+      "subtitle": "Our modern and powerful machinery fleet",
+      "excavator": "Excavator",
+      "bulldozer": "Bulldozer",
+      "truck": "Truck",
+      "compactor": "Compactor",
+      "grader": "Grader",
+      "loader": "Loader",
+      "crane": "Crane",
+      "other": "Other"
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Get in touch with us",
+      "info": "Contact Information",
+      "infoText": "You can contact us for your projects.",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "form": {
+        "name": "Your Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Your Message",
+        "send": "Send Message",
+        "success": "Your message has been sent successfully!",
+        "error": "An error occurred. Please try again."
+      }
+    },
+    "footer": {
+      "rights": "All rights reserved.",
+      "designed": "Modern Construction Solutions"
+    }
+  },
+  "it": {
+    "nav": {
+      "home": "Home",
+      "about": "Chi Siamo",
+      "services": "Servizi",
+      "projects": "Progetti",
+      "equipment": "Attrezzature",
+      "contact": "Contatto"
+    },
+    "hero": {
+      "title": "Soluzioni Edili Affidabili e Professionali",
+      "subtitle": "Realizziamo i vostri progetti con anni di esperienza e un team di esperti",
+      "viewProjects": "Visualizza i Nostri Progetti",
+      "contact": "Contattaci"
+    },
+    "about": {
+      "title": "Chi Siamo",
+      "subtitle": "BOSS Construction - Leader nel settore",
+      "heading": "Qualità e Affidabilità è il Nostro Lavoro",
+      "description1": "BOSS Construction fornisce il servizio di massima qualità ai nostri clienti con tecnologie di costruzione moderne e anni di esperienza. Lavoriamo con un team specializzato su progetti su larga scala come aeroporti, ospedali e costruzione di strade.",
+      "description2": "Le nostre certificazioni ISO e i progetti completati sono la prova maggiore dei nostri standard di qualità. Diamo priorità alla soddisfazione del cliente e alla qualità in ogni progetto.",
+      "certified": "Certificato",
+      "projects": "Progetti Completati",
+      "equipment": "Parco Macchine",
+      "employees": "Personale Esperto"
+    },
+    "services": {
+      "title": "I Nostri Servizi",
+      "subtitle": "Offriamo servizi di costruzione completi",
+      "road": {
+        "title": "Costruzione Strade",
+        "description": "Forniamo servizi professionali di costruzione stradale per autostrade, ponti e progetti infrastrutturali."
+      },
+      "airport": {
+        "title": "Costruzione Aeroporti",
+        "description": "Serviamo con il nostro team di esperti su piste aeroportuali, terminal e progetti infrastrutturali correlati."
+      },
+      "hospital": {
+        "title": "Costruzione Ospedali",
+        "description": "Lavoriamo con standard di alta qualità nella costruzione di strutture sanitarie e edifici ospedalieri."
+      },
+      "stabilization": {
+        "title": "Stabilizzazione Calce",
+        "description": "Utilizziamo tecniche moderne nei lavori di miglioramento e stabilizzazione del suolo."
+      },
+      "infrastructure": {
+        "title": "Progetti Infrastrutturali",
+        "description": "Servizi completi per progetti come fognature, impianti idrici e infrastrutture elettriche."
+      },
+      "heavyEquipment": {
+        "title": "Attrezzature Pesanti",
+        "description": "Siamo pronti per tutti i tipi di progetti con il nostro parco macchine moderno e potente."
+      }
+    },
+    "projects": {
+      "title": "I Nostri Progetti",
+      "subtitle": "Progetti completati con successo",
+      "viewDetails": "Visualizza Dettagli",
+      "close": "Chiudi",
+      "location": "Posizione",
+      "year": "Anno",
+      "airport": {
+        "title": "Costruzione Pista e Terminal Aeroporto Internazionale Akwa Ibom",
+        "description": "Progetto di costruzione pista e terminal aeroportuale moderno",
+        "location": "Akwa Ibom, Nigeria",
+        "details": "Progetto infrastrutturale completo che include la costruzione completa della pista aeroportuale e delle strutture del terminal."
+      },
+      "hospital": {
+        "title": "Ospedale del 20° Anniversario",
+        "description": "Complesso ospedaliero moderno completamente attrezzato",
+        "location": "Nigeria",
+        "details": "Progetto ospedaliero a piena capacità dotato di strutture sanitarie e attrezzature moderne."
+      },
+      "road": {
+        "title": "Duplicazione della Strada Est-Ovest",
+        "description": "Progetto di costruzione autostradale su larga scala",
+        "location": "Nigeria",
+        "details": "Progetto di modernizzazione e duplicazione dell'autostrada Est-Ovest."
+      }
+    },
+    "equipment": {
+      "title": "Parco Macchine",
+      "subtitle": "Il nostro parco macchine moderno e potente",
+      "excavator": "Escavatore",
+      "bulldozer": "Bulldozer",
+      "truck": "Camion",
+      "compactor": "Compattatore",
+      "grader": "Livellatrice",
+      "loader": "Caricatore",
+      "crane": "Gru",
+      "other": "Altro"
+    },
+    "contact": {
+      "title": "Contatto",
+      "subtitle": "Mettiti in contatto con noi",
+      "info": "Informazioni di Contatto",
+      "infoText": "Puoi contattarci per i tuoi progetti.",
+      "address": "Indirizzo",
+      "phone": "Telefono",
+      "email": "Email",
+      "form": {
+        "name": "Il Tuo Nome",
+        "email": "Email",
+        "subject": "Oggetto",
+        "message": "Il Tuo Messaggio",
+        "send": "Invia Messaggio",
+        "success": "Il tuo messaggio è stato inviato con successo!",
+        "error": "Si è verificato un errore. Riprova."
+      }
+    },
+    "footer": {
+      "rights": "Tutti i diritti riservati.",
+      "designed": "Soluzioni Edili Moderne"
+    }
+  },
+  "ar": {
+    "nav": {
+      "home": "الرئيسية",
+      "about": "من نحن",
+      "services": "خدماتنا",
+      "projects": "مشاريعنا",
+      "equipment": "المعدات",
+      "contact": "اتصل بنا"
+    },
+    "hero": {
+      "title": "حلول إنشائية موثوقة واحترافية",
+      "subtitle": "نحقق مشاريعك بسنوات من الخبرة وفريق من الخبراء",
+      "viewProjects": "اعرض مشاريعنا",
+      "contact": "اتصل بنا"
+    },
+    "about": {
+      "title": "من نحن",
+      "subtitle": "شركة BOSS للإنشاءات - رائدة في الصناعة",
+      "heading": "الجودة والموثوقية هي عملنا",
+      "description1": "توفر شركة BOSS للإنشاءات أعلى خدمة جودة لعملائنا بتقنيات البناء الحديثة وسنوات من الخبرة. نعمل مع فريق متخصص في مشاريع واسعة النطاق مثل المطارات والمستشفيات وبناء الطرق.",
+      "description2": "شهادات الأيزو الخاصة بنا والمشاريع المكتملة هي أكبر دليل على معايير الجودة لدينا. نعطي الأولوية لرضا العملاء والجودة في كل مشروع.",
+      "certified": "معتمد",
+      "projects": "المشاريع المكتملة",
+      "equipment": "أسطول المعدات",
+      "employees": "الموظفون الخبراء"
+    },
+    "services": {
+      "title": "خدماتنا",
+      "subtitle": "نقدم خدمات إنشائية شاملة",
+      "road": {
+        "title": "بناء الطرق",
+        "description": "نقدم خدمات احترافية لبناء الطرق للطرق السريعة والجسور ومشاريع البنية التحتية."
+      },
+      "airport": {
+        "title": "بناء المطارات",
+        "description": "نخدم مع فريقنا الخبير في مدرجات المطارات والمحطات ومشاريع البنية التحتية ذات الصلة."
+      },
+      "hospital": {
+        "title": "بناء المستشفيات",
+        "description": "نعمل بمعايير عالية الجودة في بناء المرافق الصحية ومباني المستشفيات."
+      },
+      "stabilization": {
+        "title": "تثبيت الجير",
+        "description": "نستخدم تقنيات حديثة في أعمال تحسين التربة والتثبيت."
+      },
+      "infrastructure": {
+        "title": "مشاريع البنية التحتية",
+        "description": "خدمات شاملة لمشاريع مثل الصرف الصحي وتركيب المياه والبنية التحتية الكهربائية."
+      },
+      "heavyEquipment": {
+        "title": "المعدات الثقيلة",
+        "description": "نحن مستعدون لجميع أنواع المشاريع بأسطول آلاتنا الحديث والقوي."
+      }
+    },
+    "projects": {
+      "title": "مشاريعنا",
+      "subtitle": "المشاريع المكتملة بنجاح",
+      "viewDetails": "عرض التفاصيل",
+      "close": "إغلاق",
+      "location": "الموقع",
+      "year": "السنة",
+      "airport": {
+        "title": "بناء مدرج ومحطة مطار أكوا إيبوم الدولي",
+        "description": "مشروع بناء مدرج ومحطة مطار حديث",
+        "location": "أكوا إيبوم، نيجيريا",
+        "details": "مشروع بنية تحتية شامل يشمل البناء الكامل لمدرج المطار ومرافق المحطة."
+      },
+      "hospital": {
+        "title": "مستشفى الذكرى العشرين",
+        "description": "مجمع مستشفى حديث مجهز بالكامل",
+        "location": "نيجيريا",
+        "details": "مشروع مستشفى بسعة كاملة مجهز بمرافق رعاية صحية ومعدات حديثة."
+      },
+      "road": {
+        "title": "تحويل طريق الشرق-الغرب إلى مزدوج",
+        "description": "مشروع بناء طريق سريع واسع النطاق",
+        "location": "نيجيريا",
+        "details": "مشروع تحديث وتحويل الطريق السريع الشرق-الغرب إلى مزدوج."
+      }
+    },
+    "equipment": {
+      "title": "أسطول المعدات",
+      "subtitle": "أسطول آلاتنا الحديث والقوي",
+      "excavator": "حفارة",
+      "bulldozer": "جرافة",
+      "truck": "شاحنة",
+      "compactor": "ضاغطة",
+      "grader": "ممهدة",
+      "loader": "لودر",
+      "crane": "رافعة",
+      "other": "أخرى"
+    },
+    "contact": {
+      "title": "اتصل بنا",
+      "subtitle": "تواصل معنا",
+      "info": "معلومات الاتصال",
+      "infoText": "يمكنك الاتصال بنا لمشاريعك.",
+      "address": "العنوان",
+      "phone": "الهاتف",
+      "email": "البريد الإلكتروني",
+      "form": {
+        "name": "اسمك",
+        "email": "البريد الإلكتروني",
+        "subject": "الموضوع",
+        "message": "رسالتك",
+        "send": "إرسال الرسالة",
+        "success": "تم إرسال رسالتك بنجاح!",
+        "error": "حدث خطأ. يرجى المحاولة مرة أخرى."
+      }
+    },
+    "footer": {
+      "rights": "جميع الحقوق محفوظة.",
+      "designed": "حلول إنشائية حديثة"
+    }
+  }
+}
+
