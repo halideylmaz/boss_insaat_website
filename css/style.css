@@ -373,6 +373,36 @@ body[dir="rtl"] .language-switcher .dropdown-menu {
     margin: 0;
 }
 
+/* Company Profile Box */
+.company-profile-box {
+    border-left: 4px solid var(--primary-color);
+}
+
+.company-profile-box h3 {
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.company-profile-box h4 {
+    color: var(--secondary-color);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+.company-profile-box .profile-section {
+    padding-left: 1rem;
+    border-left: 2px solid rgba(0, 180, 216, 0.2);
+}
+
+.company-profile-box p {
+    text-align: justify;
+    line-height: 1.8;
+    color: var(--text-dark);
+}
+
+
 /* ============================================
    SERVICES SECTION
    ============================================ */
@@ -503,6 +533,171 @@ body[dir="rtl"] .language-switcher .dropdown-menu {
     display: flex;
     align-items: center;
     gap: 0.3rem;
+}
+
+/* Project Tabs */
+.project-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.project-tab {
+    padding: 0.75rem 2rem;
+    background: var(--white);
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.project-tab:hover {
+    background: var(--primary-color);
+    color: var(--white);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 180, 216, 0.3);
+}
+
+.project-tab.active {
+    background: var(--primary-color);
+    color: var(--white);
+}
+
+.project-tab-content {
+    display: none;
+}
+
+.project-tab-content.active {
+    display: block;
+    animation: fadeIn 0.5s ease;
+}
+
+/* Project List View */
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.project-list-item {
+    background: var(--white);
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+    border-left: 4px solid var(--primary-color);
+}
+
+.project-list-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 25px rgba(0, 180, 216, 0.2);
+}
+
+.project-list-item h4 {
+    color: var(--secondary-color);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.project-list-item .project-description {
+    color: var(--text-light);
+    font-style: italic;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    border-left: 3px solid var(--primary-color);
+    line-height: 1.6;
+}
+
+
+.project-details-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.project-detail-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-detail-item strong {
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+}
+
+.project-detail-item span {
+    color: var(--text-dark);
+}
+
+/* Progress Bar */
+.progress-bar-container {
+    margin-top: 1rem;
+}
+
+.progress-bar-container strong {
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 25px;
+    background: #e0e0e0;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    transition: width 1s ease;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.status-completed {
+    background: #d4edda;
+    color: #155724;
+}
+
+.status-ongoing {
+    background: #d1ecf1;
+    color: #0c5460;
+}
+
+.status-suspended {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.status-substantially {
+    background: #fff3cd;
+    color: #856404;
 }
 
 /* ============================================
@@ -856,10 +1051,19 @@ body[dir="rtl"] .language-switcher .dropdown-menu {
 #projectModal .btn-close {
     filter: brightness(0) invert(1);
     opacity: 0.8;
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
 }
 
 #projectModal .btn-close:hover {
     opacity: 1;
+}
+
+/* RTL support for modal close button */
+[dir="rtl"] #projectModal .btn-close {
+    right: auto;
+    left: 1.5rem;
 }
 
 #projectModal .modal-body {
@@ -932,6 +1136,28 @@ body[dir="rtl"] .language-switcher .dropdown-menu {
     font-weight: 500;
 }
 
+/* Photo Caption */
+.image-caption {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 80px;
+    background: rgba(0, 0, 0, 0.75);
+    color: var(--white);
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    line-height: 1.4;
+    backdrop-filter: blur(5px);
+}
+
+/* RTL support for image caption */
+[dir="rtl"] .image-caption {
+    left: 80px;
+    right: 15px;
+}
+
 /* Thumbnail Container */
 .thumbnail-container {
     display: flex;
@@ -967,39 +1193,125 @@ body[dir="rtl"] .language-switcher .dropdown-menu {
     object-fit: cover;
 }
 
-/* Project Details */
-.project-details {
+/* Project Type Details in Modal */
+.project-type-details {
     padding: 1rem;
+    max-height: 600px;
+    overflow-y: auto;
 }
 
-.detail-item {
-    display: flex;
-    gap: 1.5rem;
+.type-description {
+    padding: 1.5rem;
+    background: linear-gradient(135deg, rgba(0, 180, 216, 0.05), rgba(18, 52, 86, 0.05));
+    border-radius: 10px;
+    border-left: 4px solid var(--primary-color);
+}
+
+.type-description .lead {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--text-dark);
+    margin: 0;
+}
+
+/* Related Projects Section */
+.related-projects-section {
+    margin-top: 1.5rem;
+}
+
+.modal-project-category {
     margin-bottom: 2rem;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid #e9ecef;
 }
 
-.detail-item:last-child {
-    border-bottom: none;
+.category-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--primary-color);
 }
 
-.detail-item i {
-    font-size: 2rem;
-    min-width: 40px;
+.category-title i {
+    font-size: 1.3rem;
 }
 
-.detail-item h5 {
-    font-size: 1.1rem;
+.modal-projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.modal-project-item {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 3px solid var(--primary-color);
+    transition: var(--transition);
+}
+
+.modal-project-item:hover {
+    background: #e9ecef;
+    transform: translateX(5px);
+}
+
+.modal-project-item h6 {
+    font-size: 0.95rem;
     font-weight: 600;
     color: var(--secondary-color);
     margin-bottom: 0.5rem;
+    line-height: 1.4;
 }
 
-.detail-item p {
+.modal-project-item .project-client {
+    font-size: 0.85rem;
     color: var(--text-light);
-    margin: 0;
-    line-height: 1.8;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-top: 0.25rem;
+}
+
+.modal-project-item .project-client i {
+    color: var(--primary-color);
+    font-size: 0.8rem;
+}
+
+.modal-project-item .badge {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.6rem;
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+
+/* No projects message */
+.no-projects-message {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: var(--text-light);
+    font-style: italic;
+}
+
+/* Scrollbar styling for modal */
+.project-type-details::-webkit-scrollbar {
+    width: 8px;
+}
+
+.project-type-details::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.project-type-details::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
+}
+
+.project-type-details::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-dark);
 }
 
 /* Responsive Modal */
@@ -1012,8 +1324,9 @@ body[dir="rtl"] .language-switcher .dropdown-menu {
         height: 300px;
     }
     
-    .project-details {
+    .project-type-details {
         margin-top: 2rem;
+        max-height: 400px;
     }
 }
 

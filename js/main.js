@@ -61,6 +61,10 @@ function changeLanguage(lang) {
         // Update all translatable elements
         updatePageContent(lang);
         
+        // Update projects with new language
+        populateCompletedProjects();
+        populateOngoingProjects();
+        
         // Fade back in
         setTimeout(() => {
             translatableElements.forEach(element => {
@@ -364,6 +368,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize lazy loading
     initLazyLoading();
     
+    // Initialize projects lists
+    initializeProjects();
+    
     // Back to top button functionality
     const backToTopBtn = document.getElementById('backToTop');
     backToTopBtn.addEventListener('click', () => {
@@ -387,27 +394,187 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // ============================================
+// Project Tab Switching
+// ============================================
+function switchProjectTab(tabName) {
+    // Hide all tabs
+    document.querySelectorAll('.project-tab-content').forEach(content => {
+        content.classList.remove('active');
+    });
+    
+    // Remove active class from all tabs
+    document.querySelectorAll('.project-tab').forEach(tab => {
+        tab.classList.remove('active');
+    });
+    
+    // Show selected tab
+    document.getElementById(`${tabName}-projects`).classList.add('active');
+    document.getElementById(`tab-${tabName}`).classList.add('active');
+}
+
+// ============================================
+// Initialize Projects Lists
+// ============================================
+function initializeProjects() {
+    // Wait for translations to load
+    setTimeout(() => {
+        if (translations && translations[currentLanguage]) {
+            populateCompletedProjects();
+            populateOngoingProjects();
+        } else {
+            // Retry after a short delay
+            setTimeout(initializeProjects, 500);
+        }
+    }, 100);
+}
+
+// ============================================
+// Populate Completed Projects
+// ============================================
+function populateCompletedProjects() {
+    const container = document.getElementById('completed-projects-list');
+    const langData = translations[currentLanguage]?.projects;
+    
+    if (!langData || !langData.completed) return;
+    
+    container.innerHTML = '';
+    
+    for (let i = 1; i <= 10; i++) {
+        const project = langData.completed[`project${i}`];
+        if (!project) continue;
+        
+        const projectItem = document.createElement('div');
+        projectItem.className = 'project-list-item';
+        
+        const statusClass = getStatusClass(project.status);
+        
+        projectItem.innerHTML = `
+            <h4>${project.title}</h4>
+            <div class="project-details-grid">
+                <div class="project-detail-item">
+                    <strong><i class="bi bi-building"></i> ${langData.client}:</strong>
+                    <span>${project.client}</span>
+                </div>
+                <div class="project-detail-item">
+                    <strong><i class="bi bi-geo-alt"></i> ${langData.location}:</strong>
+                    <span>${project.location}</span>
+                </div>
+                <div class="project-detail-item">
+                    <strong><i class="bi bi-calendar-check"></i> ${langData.awardDate}:</strong>
+                    <span>${project.awardDate}</span>
+                </div>
+                <div class="project-detail-item">
+                    <strong><i class="bi bi-calendar-event"></i> ${langData.completionDate}:</strong>
+                    <span>${project.completionDate}</span>
+                </div>
+            </div>
+            <span class="status-badge ${statusClass}">${project.status}</span>
+        `;
+        
+        container.appendChild(projectItem);
+    }
+}
+
+// ============================================
+// Populate Ongoing Projects
+// ============================================
+function populateOngoingProjects() {
+    const container = document.getElementById('ongoing-projects-list');
+    const langData = translations[currentLanguage]?.projects;
+    
+    if (!langData || !langData.ongoing) return;
+    
+    container.innerHTML = '';
+    
+    for (let i = 1; i <= 10; i++) {
+        const project = langData.ongoing[`project${i}`];
+        if (!project) continue;
+        
+        const projectItem = document.createElement('div');
+        projectItem.className = 'project-list-item';
+        
+        const statusClass = getStatusClass(project.status);
+        const completionPercent = parseInt(project.completion) || 0;
+        
+        projectItem.innerHTML = `
+            <h4>${project.title}</h4>
+            ${project.description ? `<p class="project-description">${project.description}</p>` : ''}
+            <div class="project-details-grid">
+                <div class="project-detail-item">
+                    <strong><i class="bi bi-building"></i> ${langData.client}:</strong>
+                    <span>${project.client}</span>
+                </div>
+                <div class="project-detail-item">
+                    <strong><i class="bi bi-geo-alt"></i> ${langData.location}:</strong>
+                    <span>${project.location}</span>
+                </div>
+                <div class="project-detail-item">
+                    <strong><i class="bi bi-calendar-check"></i> ${langData.awardDate}:</strong>
+                    <span>${project.awardDate}</span>
+                </div>
+            </div>
+            <div class="progress-bar-container">
+                <strong><i class="bi bi-bar-chart-fill"></i> ${langData.completion}:</strong>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: ${completionPercent}%">${project.completion}</div>
+                </div>
+            </div>
+            <span class="status-badge ${statusClass}">${project.status}</span>
+        `;
+        
+        container.appendChild(projectItem);
+    }
+}
+
+// ============================================
+// Get Status Badge Class
+// ============================================
+function getStatusClass(status) {
+    if (!status) return 'status-ongoing';
+    
+    const statusLower = status.toLowerCase();
+    
+    if (statusLower.includes('completed') || statusLower.includes('tamamlandı')) {
+        return 'status-completed';
+    } else if (statusLower.includes('ongoing') || statusLower.includes('devam')) {
+        return 'status-ongoing';
+    } else if (statusLower.includes('suspended') || statusLower.includes('askı')) {
+        return 'status-suspended';
+    } else if (statusLower.includes('substantially') || statusLower.includes('büyük')) {
+        return 'status-substantially';
+    }
+    
+    return 'status-ongoing';
+}
+
+
+// ============================================
 // Expose changeLanguage function globally
 // ============================================
 window.changeLanguage = changeLanguage;
+window.switchProjectTab = switchProjectTab;
+
 
 // ============================================
 // Project Modal Gallery System
 // ============================================
 
-// Project data with image arrays
+// Project data with image arrays and related project mapping
 const projectData = {
     airport: {
         images: ['airport1.png', 'airport2.png', 'airport3.png'],
-        year: '2009'
+        completed: [1], // Project IDs related to airports (only project 1)
+        ongoing: [] // No ongoing airport projects
     },
     hospital: {
         images: ['hospital1.png', 'hospital2.png', 'hospital3.png'],
-        year: '2015'
+        completed: [6, 7, 8, 9, 10], // Buildings: 6=Presidential Complex, 7=Christian Centre, 8=Presidential Library, 9=Hospital, 10=CBN Bank
+        ongoing: [5, 7] // Buildings: 5=Christian Centre Rehab, 7=Osun Office (removed project 8)
     },
     road: {
         images: ['road1.png', 'road2.png', 'road3.png'],
-        year: '2009'
+        completed: [2, 3, 4, 5], // Roads/Infrastructure: 2=Abuja-Lokoja, 3=Oron Road, 4=Rigidi Bridge, 5=Nasarawa Road
+        ongoing: [1, 2, 3, 4, 6, 10] // Roads/Infrastructure: 1=East-West, 2=Abuja-Lokoja, 3=Nassarawa-Loko, 4=Eket Bypass, 6=Omelema-Agada, 10=Itigidi Bridge
     }
 };
 
@@ -421,18 +588,84 @@ function openProjectModal(projectType) {
     
     const project = projectData[projectType];
     const langData = translations[currentLanguage].projects[projectType];
+    const allProjects = translations[currentLanguage].projects;
     
     // Set modal title
     document.getElementById('projectModalTitle').textContent = langData.title;
     
-    // Set project details
-    document.getElementById('projectLocation').textContent = langData.location;
-    document.getElementById('projectYear').textContent = project.year;
-    document.getElementById('projectDescription').textContent = langData.description;
-    document.getElementById('projectDetails').textContent = langData.details;
+    // Set type description
+    document.getElementById('projectTypeDescription').textContent = langData.details;
+    
+    // Set photo caption
+    document.getElementById('projectPhotoCaption').textContent = langData.photoCaption;
     
     // Load images
     loadProjectImages(project.images);
+    
+    // Populate completed projects
+    const completedContainer = document.getElementById('modalCompletedProjects');
+    completedContainer.innerHTML = '';
+    
+    if (project.completed && project.completed.length > 0) {
+        project.completed.forEach(projectId => {
+            const projectInfo = allProjects.completed[`project${projectId}`];
+            if (projectInfo) {
+                const projectItem = document.createElement('div');
+                projectItem.className = 'modal-project-item';
+                
+                const statusClass = getStatusClass(projectInfo.status);
+                
+                projectItem.innerHTML = `
+                    <h6>${projectInfo.title}</h6>
+                    <div class="project-client">
+                        <i class="bi bi-building"></i>
+                        <span>${projectInfo.client}</span>
+                    </div>
+                    <span class="badge ${statusClass}">${projectInfo.status}</span>
+                `;
+                
+                completedContainer.appendChild(projectItem);
+            }
+        });
+    } else {
+        completedContainer.innerHTML = `<p class="no-projects-message">${allProjects.noCompletedProjects}</p>`;
+    }
+    
+    // Populate ongoing projects
+    const ongoingContainer = document.getElementById('modalOngoingProjects');
+    ongoingContainer.innerHTML = '';
+    
+    if (project.ongoing && project.ongoing.length > 0) {
+        project.ongoing.forEach(projectId => {
+            const projectInfo = allProjects.ongoing[`project${projectId}`];
+            if (projectInfo) {
+                const projectItem = document.createElement('div');
+                projectItem.className = 'modal-project-item';
+                
+                const statusClass = getStatusClass(projectInfo.status);
+                const completionPercent = parseInt(projectInfo.completion) || 0;
+                
+                projectItem.innerHTML = `
+                    <h6>${projectInfo.title}</h6>
+                    <div class="project-client">
+                        <i class="bi bi-building"></i>
+                        <span>${projectInfo.client}</span>
+                    </div>
+                    <div class="progress-bar-container mt-2">
+                        <div class="progress-bar" style="height: 6px;">
+                            <div class="progress-fill" style="width: ${completionPercent}%; height: 6px; font-size: 0; line-height: 0;"></div>
+                        </div>
+                        <small class="text-muted">${projectInfo.completion}</small>
+                    </div>
+                    <span class="badge ${statusClass}">${projectInfo.status}</span>
+                `;
+                
+                ongoingContainer.appendChild(projectItem);
+            }
+        });
+    } else {
+        ongoingContainer.innerHTML = `<p class="no-projects-message">${allProjects.noOngoingProjects}</p>`;
+    }
     
     // Show modal
     const modal = new bootstrap.Modal(document.getElementById('projectModal'));

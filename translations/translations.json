@@ -1,5 +1,8 @@
 {
   "tr": {
+    "brand": {
+      "name": "BOSS İNŞAAT"
+    },
     "nav": {
       "home": "Ana Sayfa",
       "about": "Hakkımızda",
@@ -10,7 +13,7 @@
     },
     "hero": {
       "title": "Güvenilir ve Profesyonel İnşaat Çözümleri",
-      "subtitle": "Yıllık deneyimimiz ve uzman kadromuzla projelerinizi hayata geçiriyoruz",
+      "subtitle": "Uzman kadromuz ve yıllardan gelen deneyimlerimizle projelerinizi hayata geçiriyoruz",
       "viewProjects": "Projelerimizi Görüntüle",
       "contact": "İletişime Geçin"
     },
@@ -18,6 +21,13 @@
       "title": "Hakkımızda",
       "subtitle": "BOSS İnşaat olarak sektörde öncü konumdayız",
       "heading": "Kalite ve Güvenilirlik Bizim İşimiz",
+      "companyProfile": "Şirket Profili",
+      "foundingTitle": "Kuruluş ve Ortaklık Yapısı",
+      "foundingText": "Boss Genel Müteahhitlik ve Ticaret AŞ, 2016 yılında Ankara, Türkiye merkezli olarak kurulmuş bir taahhüt firmasıdır. Şirket, iki güçlü inşaat grubunun birleşmesiyle doğmuştur: 1954 yılından beri faaliyette olan GITTO Infrastructure LTD'nin sahibi Salvatore GITTO ve AKKUM İnşaat AŞ'nin sahibi Faruk AKKUM. Ortaklık yapısı %51 GITTO ve %49 Akkum hisselerinden oluşmaktadır.",
+      "internationalTitle": "Uluslararası Deneyim: GITTO Infrastructure Mirası",
+      "internationalText": "Şirketimizin ortağı olan GITTO Infrastructure Ltd, köklü bir geçmişe sahiptir. Grubun Nijerya iştiraki olan GITTO Nigeria Ltd, 1994 yılından bu yana uluslararası arenada önemli projelere imza atmıştır. Bu projeler arasında otoyollar, kamu binaları, hastaneler, kapsamlı altyapı projeleri ve havalimanları gibi büyük ölçekli işler bulunmaktadır.",
+      "turkeyTitle": "Türkiye'deki Faaliyetler: BOSS Uzmanlığı",
+      "turkeyText": "GITTO'nun ve Akkum'un bu derin uluslararası deneyimi, 2016 yılından itibaren BOSS tüzel kişiliği adı altında Türkiye'deki projelere aktarılmıştır. BOSS, Türkiye'de özellikle altyapı ve üstyapı alanlarında uzmanlaşarak sulama kanalları, nitelikli binalar, yollar ve atıksu arıtma tesisleri gibi kritik projeleri başarıyla inşa etmiştir.",
       "description1": "BOSS İnşaat, modern inşaat teknolojileri ve yıllarca süren deneyimimizle müşterilerimize en kaliteli hizmeti sunmaktayız. Havaalanı, hastane, yol yapımı gibi büyük ölçekli projelerde uzmanlaşmış bir ekiple çalışıyoruz.",
       "description2": "ISO sertifikalarımız ve tamamlanmış projelerimiz, kalite standartlarımızın en büyük kanıtıdır. Her projede müşteri memnuniyeti ve kaliteyi ön planda tutuyoruz.",
       "certified": "Sertifikalı",
@@ -56,27 +66,215 @@
     "projects": {
       "title": "Projelerimiz",
       "subtitle": "Başarıyla tamamladığımız projeler",
+      "completedTitle": "Tamamlanan Projeler",
+      "ongoingTitle": "Devam Eden Projeler",
+      "projectTypesTitle": "Uzmanlık Alanlarımız",
       "viewDetails": "Detayları Gör",
       "close": "Kapat",
       "location": "Konum",
       "year": "Yıl",
+      "client": "Müşteri",
+      "awardDate": "İhale Tarihi",
+      "completionDate": "Tamamlanma Tarihi",
+      "contractAmount": "Sözleşme Tutarı",
+      "status": "Durum",
+      "completion": "Tamamlanma Oranı",
+      "noCompletedProjects": "Bu kategoride tamamlanmış proje bulunmamaktadır",
+      "noOngoingProjects": "Bu kategoride devam eden proje bulunmamaktadır",
       "airport": {
-        "title": "Akwa Ibom Uluslararası Havaalanı Pist ve Terminal Yapımı",
-        "description": "Modern havaalanı pisti ve terminal yapım projesi",
-        "location": "Akwa Ibom, Nigeria",
-        "details": "Havaalanı pistin ve terminalin tam inşaatı dahil olmak üzere kapsamlı altyapı projesi."
+        "title": "Havaalanı Pist ve Terminal Yapımı",
+        "description": "Uluslararası standartlarda havaalanı altyapı projeleri",
+        "location": "Çeşitli Lokasyonlar",
+        "details": "Pist yapımı, terminal binaları, apron alanları ve havaalanı altyapı sistemlerinin tam kapsamlı inşaatı. Uluslararası standartlarda havacılık tesisleri ve ilgili teknik altyapı projeleri.",
+        "photoCaption": "Akwa Ibom Uluslararası Havaalanı Faz I"
       },
       "hospital": {
-        "title": "20. Yıl Hastanesi",
-        "description": "Tam donanımlı modern hastane kompleksi",
-        "location": "Nigeria",
-        "details": "Modern sağlık tesisleri ve ekipmanlarıyla donatılmış tam kapasiteli hastane projesi."
+        "title": "Hastane ve Sağlık Tesisi Yapımı",
+        "description": "Modern sağlık tesisleri ve hastane kompleksleri",
+        "location": "Çeşitli Lokasyonlar",
+        "details": "Hastane binaları, poliklinikler, acil servisler ve tıbbi destek binalarının inşaatı. Modern sağlık ekipmanları ve altyapısı ile donatılmış tam kapasiteli sağlık tesisleri.",
+        "photoCaption": "20. Yıldönümü Uzmanlaşmış Hastane İnşaatı, Uyo"
       },
       "road": {
-        "title": "Doğu-Batı Karayolunun Çift Yönlü Hale Getirilmesi",
-        "description": "Büyük ölçekli otoyol yapım projesi",
-        "location": "Nigeria",
-        "details": "Doğu-Batı karayolunun modernizasyonu ve çift yönlü hale getirilmesi projesi."
+        "title": "Yol, Otoyol ve Altyapı Projeleri",
+        "description": "Kapsamlı ulaşım altyapısı ve otoyol projeleri",
+        "location": "Çeşitli Lokasyonlar",
+        "details": "Otoyol yapımı, köprü inşaatı, yol genişletme ve modernizasyon projeleri. Karayolu altyapısı, drenaj sistemleri ve ilgili mühendislik yapılarının tam kapsamlı inşaatı.",
+        "photoCaption": "Doğu-Batı Yolu Dublizasyonu Bölüm V (Doğu-Oron - Sözleşme Yolu)"
+      },
+      "completed": {
+        "project1": {
+          "title": "Akwa Ibom Uluslararası Havaalanı Faz I",
+          "client": "Akwa Ibom Eyalet Hükümeti",
+          "location": "Akwa Ibom, Nijerya",
+          "awardDate": "2005",
+          "completionDate": "2010",
+          "status": "Tamamlandı"
+        },
+        "project2": {
+          "title": "Abak Yolu Dublizasyonu",
+          "client": "Akwa Ibom Eyalet Hükümeti",
+          "location": "Akwa Ibom, Nijerya",
+          "awardDate": "2004",
+          "completionDate": "2010",
+          "status": "Tamamlandı"
+        },
+        "project3": {
+          "title": "Oron Yolu Dublizasyonu (Bölüm II)",
+          "client": "Akwa Ibom Eyalet Hükümeti - Ulaştırma ve Bayındırlık Bakanlığı",
+          "location": "Akwa Ibom, Nijerya",
+          "awardDate": "2007",
+          "completionDate": "2010",
+          "status": "Tamamlandı"
+        },
+        "project4": {
+          "title": "Rigidi Köprüsü ve Yaklaşım Yolları İnşaatı",
+          "client": "Nijerya Federal Cumhuriyeti - Bayındırlık Bakanlığı",
+          "location": "Cross River, Nijerya",
+          "awardDate": "2003",
+          "completionDate": "2013",
+          "status": "Büyük Ölçüde Tamamlandı"
+        },
+        "project5": {
+          "title": "Nasarawa Loko Yolu Restorasyonu",
+          "client": "Nijerya Federal Cumhuriyeti - Bayındırlık Bakanlığı",
+          "location": "Nasarawa, Nijerya",
+          "awardDate": "2006",
+          "completionDate": "2023",
+          "status": "Büyük Ölçüde Tamamlandı"
+        },
+        "project6": {
+          "title": "Shehu Shagari Başkanlık Kompleksi Tamamlanması",
+          "client": "Federal Başkent Geliştirme Otoritesi",
+          "location": "Abuja FCT, Nijerya",
+          "awardDate": "2006",
+          "completionDate": "2010",
+          "status": "Tamamlandı"
+        },
+        "project7": {
+          "title": "Ulusal Ekümenik Merkez İnşaatı",
+          "client": "Ulusal Hristiyan Birliği",
+          "location": "Abuja FCT, Nijerya",
+          "awardDate": "2005",
+          "completionDate": "2008",
+          "status": "Tamamlandı"
+        },
+        "project8": {
+          "title": "Başkanlık Kütüphanesi ve Oteli",
+          "client": "OOPL Vakfı",
+          "location": "Abeokuta, Nijerya",
+          "awardDate": "2005",
+          "completionDate": "2009",
+          "status": "Tamamlandı"
+        },
+        "project9": {
+          "title": "20. Yıldönümü Uzmanlaşmış Hastane İnşaatı, Uyo",
+          "client": "Nijerya Federal Cumhuriyeti - Akwa Ibom Eyalet Hükümeti",
+          "location": "Akwa Ibom, Nijerya",
+          "awardDate": "2009",
+          "completionDate": "2014",
+          "status": "Büyük Ölçüde Tamamlandı"
+        },
+        "project10": {
+          "title": "Nijerya Merkez Bankası Yenagoa Şubesi Prototip Binası",
+          "client": "Nijerya Merkez Bankası",
+          "location": "Bayelsa, Nijerya",
+          "awardDate": "2010",
+          "completionDate": "2019",
+          "status": "Tamamlandı"
+        }
+      },
+      "ongoing": {
+        "project1": {
+          "title": "Doğu-Batı Yolu Dublizasyonu (Bölüm V East-Oron - Sözleşme Yolu)",
+          "description": "6 adet köprü ile toplam 550m uzunluğunda çift şeritli tek yönlü yol.",
+          "client": "Nijerya Federal Cumhuriyeti - Bayındırlık ve Konut Bakanlığı",
+          "location": "Akwa Ibom, Nijerya",
+          "awardDate": "Eylül 2006",
+          "completion": "58%",
+          "status": "Devam Ediyor"
+        },
+        "project2": {
+          "title": "Abuja-Abaji-Lokoja Otoyolu Bölüm IV: Koton-Karfe-Lokoja Yolu Dublizasyonu",
+          "description": "Destekleyici sıralı drenajlar ile 49.43 km uzunluğunda çift şeritli tek yönlü yol yapımı ve 7 adet köprü ile mevcut yolun rehabilitasyonu.",
+          "client": "Nijerya Federal Cumhuriyeti - Otoyollar Bakanlığı",
+          "location": "Kogi, Nijerya",
+          "awardDate": "Eylül 2006",
+          "completion": "76%",
+          "status": "Olası artırma ile devam ediyor"
+        },
+        "project3": {
+          "title": "Nasarawa-Loko Yolu Restorasyonunun Tamamlanması",
+          "description": "İlgili drenajlar ve menfezler ile mevcut tek yönlü yolun rehabilitasyonu.",
+          "client": "Nijerya Federal Cumhuriyeti - Otoyollar Bakanlığı",
+          "location": "Nasarawa, Nijerya",
+          "awardDate": "Haziran 2015",
+          "completion": "94%",
+          "status": "Büyük Ölçüde Tamamlandı"
+        },
+        "project4": {
+          "title": "Dual Dual Carriageway Eket By Pass, Eket-Oron Yolu Bölüm IV ID752 İnşaatı",
+          "description": "Mevcut Doğu Batı Yolu dublizasyon hattında Eket Köprüsü sonrası kavşaktan 9,75 km çift yönlü yol inşaatı.",
+          "client": "Nijerya Federal Cumhuriyeti - Niger Delta Bakanlığı",
+          "location": "Akwa Ibom, Nijerya",
+          "awardDate": "Mayıs 2019",
+          "completion": "13%",
+          "status": "Devam Ediyor"
+        },
+        "project5": {
+          "title": "Ulusal Hristiyan Merkez Restorasyonu",
+          "description": "Mevcut Hristiyan Kilisesi binasının çatısının rehabilitasyonu.",
+          "client": "Federal Başkent Geliştirme Otoritesi (Abuja)",
+          "location": "FCT Abuja",
+          "awardDate": "Şubat 2021",
+          "completion": "93%",
+          "status": "Büyük Ölçüde Tamamlandı"
+        },
+        "project6": {
+          "title": "Omelema-Agada Yolu Faz I İnşaatı",
+          "description": "Omelema ve Agada topluluklarını bağlayan 6,1 km uzunluğunda çift şeritli tek yönlü yol inşaatı.",
+          "client": "Nijerya Federal Cumhuriyeti - Niger Delta Bakanlığı",
+          "location": "River, Nijerya",
+          "awardDate": "Aralık 2010",
+          "completion": "14%",
+          "status": "Askıya Alındı"
+        },
+        "project7": {
+          "title": "Osun Liaison Ofisi",
+          "description": "Eyalet için harici ve bodrum otopark ve giriş yolu ile altı katlı ofis kompleksi.",
+          "client": "Osun Eyaleti",
+          "location": "Osun, Nijerya",
+          "awardDate": "Ağustos 2005",
+          "completion": "60%",
+          "status": "Askıya Alındı"
+        },
+        "project8": {
+          "title": "Akwa Ibom Uluslararası Havaalanı Faz I",
+          "description": "3,6 km ve 60 m genişliğinde uluslararası standart pist ve geçici terminal apron ve MRO apron.",
+          "client": "Akwa Ibom Eyalet Hükümeti",
+          "location": "Akwa Ibom, Nijerya",
+          "awardDate": "Haziran 2005",
+          "completion": "96%",
+          "status": "Büyük Ölçüde Tamamlandı - Askıya Alındı"
+        },
+        "project9": {
+          "title": "20. Yıldönümü Uzmanlaşmış Hastane İnşaatı, Uyo",
+          "description": "Servis binası ve yardımcı bina tarafından desteklenen ana bina.",
+          "client": "Nijerya Federal Cumhuriyeti - Akwa Ibom Eyalet Hükümeti",
+          "location": "Akwa Ibom, Nijerya",
+          "awardDate": "Mayıs 2009",
+          "completion": "91%",
+          "status": "Büyük Ölçüde Tamamlandı - Askıya Alındı"
+        },
+        "project10": {
+          "title": "Itigidi Köprüsü ve Yaklaşım Yolları İnşaatı",
+          "description": "Çoklu açıklıklı köprü ve yaklaşık 1,5 km sapak yolu ile 26 km çift şeritli tek yönlü yol inşaatı.",
+          "client": "Nijerya Federal Cumhuriyeti - Bayındırlık Bakanlığı",
+          "location": "Cross River, Nijerya",
+          "awardDate": "Mart 2003",
+          "completion": "88%",
+          "status": "Büyük Ölçüde Tamamlandı - Askıya Alındı"
+        }
       }
     },
     "equipment": {
@@ -115,6 +313,9 @@
     }
   },
   "en": {
+    "brand": {
+      "name": "BOSS CONSTRUCTION"
+    },
     "nav": {
       "home": "Home",
       "about": "About Us",
@@ -133,6 +334,13 @@
       "title": "About Us",
       "subtitle": "BOSS Construction - Leading the industry",
       "heading": "Quality and Reliability is Our Business",
+      "companyProfile": "Company Profile",
+      "foundingTitle": "Founding and Partnership Structure",
+      "foundingText": "Boss General Contracting and Trading Inc. was established in 2016 as a contracting company based in Ankara, Turkey. The company was born from the merger of two strong construction groups: Salvatore GITTO, owner of GITTO Infrastructure LTD operating since 1954, and Faruk AKKUM, owner of AKKUM Construction Inc. The partnership structure consists of 51% GITTO and 49% Akkum shares.",
+      "internationalTitle": "International Experience: GITTO Infrastructure Legacy",
+      "internationalText": "GITTO Infrastructure Ltd, our partner company, has a deep-rooted history. The group's Nigerian subsidiary, GITTO Nigeria Ltd, has been delivering significant projects in the international arena since 1994. These projects include large-scale works such as highways, public buildings, hospitals, comprehensive infrastructure projects, and airports.",
+      "turkeyTitle": "Operations in Turkey: BOSS Expertise",
+      "turkeyText": "This deep international experience of GITTO and Akkum has been transferred to projects in Turkey under the BOSS legal entity since 2016. BOSS has successfully constructed critical projects such as irrigation channels, qualified buildings, roads, and wastewater treatment plants, specializing particularly in infrastructure and superstructure areas in Turkey.",
       "description1": "BOSS Construction provides the highest quality service to our customers with modern construction technologies and years of experience. We work with a specialized team on large-scale projects such as airports, hospitals, and road construction.",
       "description2": "Our ISO certifications and completed projects are the greatest proof of our quality standards. We prioritize customer satisfaction and quality in every project.",
       "certified": "Certified",
@@ -171,27 +379,225 @@
     "projects": {
       "title": "Our Projects",
       "subtitle": "Successfully completed projects",
+      "completedTitle": "Completed Projects",
+      "ongoingTitle": "Ongoing Projects",
+      "projectTypesTitle": "Our Expertise",
       "viewDetails": "View Details",
       "close": "Close",
       "location": "Location",
       "year": "Year",
+      "client": "Client",
+      "awardDate": "Award Date",
+      "completionDate": "Completion Date",
+      "contractAmount": "Contract Amount",
+      "status": "Status",
+      "completion": "Completion Rate",
+      "noCompletedProjects": "No completed projects in this category",
+      "noOngoingProjects": "No ongoing projects in this category",
       "airport": {
-        "title": "Akwa Ibom International Airport Runway and Terminal Construction",
-        "description": "Modern airport runway and terminal construction project",
-        "location": "Akwa Ibom, Nigeria",
-        "details": "Comprehensive infrastructure project including complete construction of airport runway and terminal facilities."
+        "title": "Airport Runway and Terminal Construction",
+        "description": "International standard airport infrastructure projects",
+        "location": "Various Locations",
+        "details": "Comprehensive construction of runway, terminal buildings, apron areas, and airport infrastructure systems. International standard aviation facilities and related technical infrastructure projects.",
+        "photoCaption": "Akwa Ibom International Airport Phase I"
       },
       "hospital": {
-        "title": "20th Anniversary Hospital",
-        "description": "Fully equipped modern hospital complex",
-        "location": "Nigeria",
-        "details": "Full-capacity hospital project equipped with modern healthcare facilities and equipment."
+        "title": "Hospital and Healthcare Facility Construction",
+        "description": "Modern healthcare facilities and hospital complexes",
+        "location": "Various Locations",
+        "details": "Construction of hospital buildings, polyclinics, emergency services, and medical support buildings. Full-capacity healthcare facilities equipped with modern medical equipment and infrastructure.",
+        "photoCaption": "Construction of 20th Anniversary Specialist Hospital, Uyo"
       },
       "road": {
-        "title": "Dualization of East-West Road",
-        "description": "Large-scale highway construction project",
-        "location": "Nigeria",
-        "details": "Modernization and dualization project of the East-West highway."
+        "title": "Road, Highway and Infrastructure Projects",
+        "description": "Comprehensive transportation infrastructure and highway projects",
+        "location": "Various Locations",
+        "details": "Highway construction, bridge building, road expansion and modernization projects. Comprehensive construction of road infrastructure, drainage systems, and related engineering structures.",
+        "photoCaption": "Dualization of East-West Road Section V (East-Oron - Contract Carriageway)"
+      },
+      "completed": {
+        "project1": {
+          "title": "Akwa Ibom International Airport Phase I",
+          "client": "Government of Akwa Ibom State",
+          "location": "Akwa Ibom State, Nigeria",
+          "awardDate": "2005",
+          "completionDate": "2010",
+          "status": "Completed"
+        },
+        "project2": {
+          "title": "Dualization of Abak Road Uyo",
+          "client": "Akwa Ibom State Government",
+          "location": "Akwa Ibom State, Nigeria",
+          "awardDate": "2004",
+          "completionDate": "2010",
+          "status": "Completed"
+        },
+        "project3": {
+          "title": "Dualization of Oron Road (Section II)",
+          "client": "Government of Akwa Ibom State - Ministry of Works & Transport",
+          "location": "Akwa Ibom State, Nigeria",
+          "awardDate": "2007",
+          "completionDate": "2010",
+          "status": "Completed"
+        },
+        "project4": {
+          "title": "Construction of Rigidi Bridge & Approach Roads",
+          "client": "Federal Republic of Nigeria - Ministry of Works",
+          "location": "Cross River State, Nigeria",
+          "awardDate": "2003",
+          "completionDate": "2013",
+          "status": "Substantially Completed"
+        },
+        "project5": {
+          "title": "Rehabilitation of Nasarawa Loko Road",
+          "client": "Federal Republic of Nigeria - Ministry of Works",
+          "location": "Nasarawa State, Nigeria",
+          "awardDate": "2006",
+          "completionDate": "2023",
+          "status": "Substantially Completed"
+        },
+        "project6": {
+          "title": "Completion of Shehu Shagari Presidential Complex",
+          "client": "Federal Capital Development Authority",
+          "location": "Abuja FCT State, Nigeria",
+          "awardDate": "2006",
+          "completionDate": "2010",
+          "status": "Completed"
+        },
+        "project7": {
+          "title": "Construction of the National Ecumenical Centre",
+          "client": "National Christian Association",
+          "location": "Abuja FCT State, Nigeria",
+          "awardDate": "2005",
+          "completionDate": "2008",
+          "status": "Completed"
+        },
+        "project8": {
+          "title": "Presidential Library & Hotel",
+          "client": "OOPL Foundation",
+          "location": "Abeokuta, Nigeria",
+          "awardDate": "2005",
+          "completionDate": "2009",
+          "status": "Completed"
+        },
+        "project9": {
+          "title": "Construction of 20th Anniversary Specialist Hospital, Uyo",
+          "client": "Federal Republic of Nigeria - Government of Akwa Ibom State",
+          "location": "Akwa Ibom State, Nigeria",
+          "awardDate": "2009",
+          "completionDate": "2014",
+          "status": "Substantially Completed"
+        },
+        "project10": {
+          "title": "Central Bank of Nigeria Yenagoa Branch Prototype Building",
+          "client": "Central Bank of Nigeria",
+          "location": "Bayelsa State, Nigeria",
+          "awardDate": "2010",
+          "completionDate": "2019",
+          "status": "Completed"
+        }
+      },
+      "ongoing": {
+        "project1": {
+          "title": "Dualization of East-West Road Section V (East-Oron - Contract Carriageway)",
+          "description": "Double lane single carriageway road with 6 bridges with a total length of 550m.",
+          "client": "Federal Republic of Nigeria - Ministry of Works & Housing",
+          "location": "Akwa Ibom State, Nigeria",
+          "awardDate": "September 2006",
+          "completionDate": "August 2025",
+          "completion": "58%",
+          "status": "On-going"
+        },
+        "project2": {
+          "title": "Dualization of Abuja-Abaji-Lokoja Highways Section IV: Koton-Karfe-Lokoja Road",
+          "description": "Construction of 49.43km long double lane single carriageway with supporting lined drains and rehabilitation of the existing carriageway with construction of 7 bridges.",
+          "client": "Federal Republic of Nigeria - Ministry of Works Highways Dep.",
+          "location": "Kogi State, Nigeria",
+          "awardDate": "September 2006",
+          "completionDate": "-",
+          "completion": "76%",
+          "status": "On-going with possible augmentation"
+        },
+        "project3": {
+          "title": "Completion of Rehabilitation of Nassarawa-Loko Road",
+          "description": "Rehabilitation of existing single carriageway with associated drains and culverts.",
+          "client": "Federal Republic of Nigeria - Ministry of Works Highways Dep.",
+          "location": "Nassarawa State, Nigeria",
+          "awardDate": "June 2015",
+          "completionDate": "-",
+          "completion": "94%",
+          "status": "Substantially Completed"
+        },
+        "project4": {
+          "title": "Construction of Dual Dual Carriageway Eket By Pass, Eket-Oron Road Section IV ID752",
+          "description": "Construction of 9.75 km of Dual Carriageway from the Junction after the Eket Bridge on the existing East West Road Dualization alignment.",
+          "client": "Federal Republic of Nigeria - Ministry of Niger Delta",
+          "location": "Akwa Ibom State, Nigeria",
+          "awardDate": "May 2019",
+          "completionDate": "March 2026",
+          "completion": "13%",
+          "status": "On-going"
+        },
+        "project5": {
+          "title": "Rehabilitation of National Christian Centre",
+          "description": "Rehabilitation of the Roof of the existing Christian Church of Building.",
+          "client": "Federal Capital Development Authority (Abuja)",
+          "location": "FCT Abuja",
+          "awardDate": "February 2021",
+          "completionDate": "-",
+          "completion": "93%",
+          "status": "Substantially Completed"
+        },
+        "project6": {
+          "title": "Construction of Omelema-Agada Road Phase I",
+          "description": "Construction of 6.1km long double lane single carriageway connecting Omelema and Agada communities.",
+          "client": "Federal Republic of Nigeria - Ministry of Niger Delta",
+          "location": "River State, Nigeria",
+          "awardDate": "December 2010",
+          "completionDate": "-",
+          "completion": "14%",
+          "status": "Suspended"
+        },
+        "project7": {
+          "title": "Osun Liaison Office",
+          "description": "Six storey office complex for the State with external and basement parking and driveway.",
+          "client": "Osun State",
+          "location": "Osun State, Nigeria",
+          "awardDate": "August 2005",
+          "completionDate": "-",
+          "completion": "60%",
+          "status": "Suspended"
+        },
+        "project8": {
+          "title": "Akwa Ibom International Airport Phase I",
+          "description": "International Standard Runway of 3.6km & 60m wide and an interim terminal Apron and MRO Apron.",
+          "client": "Government of Akwa Ibom State Nigeria",
+          "location": "Akwa Ibom State, Nigeria",
+          "awardDate": "June 2005",
+          "completionDate": "-",
+          "completion": "96%",
+          "status": "Substantially Completed - Suspended"
+        },
+        "project9": {
+          "title": "Construction of 20th Anniversary Specialist Hospital, Uyo",
+          "description": "Main Building housing supported by a Service Building and ancillary building.",
+          "client": "Federal Republic of Nigeria - Government of Akwa Ibom State",
+          "location": "Akwa Ibom State, Nigeria",
+          "awardDate": "May 2009",
+          "completionDate": "-",
+          "completion": "91%",
+          "status": "Substantially Completed - Suspended"
+        },
+        "project10": {
+          "title": "Construction of Itigidi Bridge & Approach Roads",
+          "description": "Construction of Multiple Span Bridge and 26-km double lane single carriageway with a spur road of about 1.5km.",
+          "client": "Federal Republic of Nigeria - Ministry of Works",
+          "location": "Cross River State, Nigeria",
+          "awardDate": "March 2003",
+          "completionDate": "-",
+          "completion": "88%",
+          "status": "Substantially Completed - Suspended"
+        }
       }
     },
     "equipment": {
@@ -230,6 +636,9 @@
     }
   },
   "it": {
+    "brand": {
+      "name": "BOSS COSTRUZIONI"
+    },
     "nav": {
       "home": "Home",
       "about": "Chi Siamo",
@@ -248,6 +657,13 @@
       "title": "Chi Siamo",
       "subtitle": "BOSS Construction - Leader nel settore",
       "heading": "Qualità e Affidabilità è il Nostro Lavoro",
+      "companyProfile": "Profilo Aziendale",
+      "foundingTitle": "Fondazione e Struttura della Partnership",
+      "foundingText": "Boss General Contracting and Trading Inc. è stata fondata nel 2016 come società di appalti con sede ad Ankara, Turchia. L'azienda è nata dalla fusione di due forti gruppi di costruzione: Salvatore Gitto, proprietario di GITTO Infrastructure LTD operante dal 1954, e Musa Akkum, proprietario di AKKUM Construction Inc. La struttura della partnership è composta dal 51% di azioni GITTO e dal 49% di azioni Akkum.",
+      "internationalTitle": "Esperienza Internazionale: L'eredità di GITTO Infrastructure",
+      "internationalText": "GITTO Infrastructure Ltd, la nostra azienda partner, ha una storia profondamente radicata. La filiale nigeriana del gruppo, GITTO Nigeria Ltd, ha realizzato progetti significativi nell'arena internazionale dal 1994. Questi progetti includono lavori su larga scala come autostrade, edifici pubblici, ospedali, progetti infrastrutturali completi e aeroporti.",
+      "turkeyTitle": "Operazioni in Turchia: L'expertise di BOSS",
+      "turkeyText": "Questa profonda esperienza internazionale di GITTO e Akkum è stata trasferita ai progetti in Turchia sotto l'entità legale BOSS dal 2016. BOSS ha costruito con successo progetti critici come canali di irrigazione, edifici qualificati, strade e impianti di trattamento delle acque reflue, specializzandosi particolarmente nelle aree infrastrutturali e sovrastrutturali in Turchia.",
       "description1": "BOSS Construction fornisce il servizio di massima qualità ai nostri clienti con tecnologie di costruzione moderne e anni di esperienza. Lavoriamo con un team specializzato su progetti su larga scala come aeroporti, ospedali e costruzione di strade.",
       "description2": "Le nostre certificazioni ISO e i progetti completati sono la prova maggiore dei nostri standard di qualità. Diamo priorità alla soddisfazione del cliente e alla qualità in ogni progetto.",
       "certified": "Certificato",
@@ -286,27 +702,214 @@
     "projects": {
       "title": "I Nostri Progetti",
       "subtitle": "Progetti completati con successo",
+      "completedTitle": "Progetti Completati",
+      "ongoingTitle": "Progetti in Corso",
+      "projectTypesTitle": "La Nostra Esperienza",
       "viewDetails": "Visualizza Dettagli",
       "close": "Chiudi",
       "location": "Posizione",
       "year": "Anno",
+      "client": "Cliente",
+      "awardDate": "Data di Assegnazione",
+      "completionDate": "Data di Completamento",
+      "status": "Stato",
+      "completion": "Tasso di Completamento",
+      "noCompletedProjects": "Nessun progetto completato in questa categoria",
+      "noOngoingProjects": "Nessun progetto in corso in questa categoria",
       "airport": {
-        "title": "Costruzione Pista e Terminal Aeroporto Internazionale Akwa Ibom",
-        "description": "Progetto di costruzione pista e terminal aeroportuale moderno",
-        "location": "Akwa Ibom, Nigeria",
-        "details": "Progetto infrastrutturale completo che include la costruzione completa della pista aeroportuale e delle strutture del terminal."
+        "title": "Costruzione Pista e Terminal Aeroportuale",
+        "description": "Progetti infrastrutturali aeroportuali di standard internazionale",
+        "location": "Varie Località",
+        "details": "Costruzione completa di piste, edifici terminal, aree di sosta e sistemi infrastrutturali aeroportuali. Strutture aeronautiche di standard internazionale e relativi progetti di infrastrutture tecniche.",
+        "photoCaption": "Aeroporto Internazionale di Akwa Ibom Fase I"
       },
       "hospital": {
-        "title": "Ospedale del 20° Anniversario",
-        "description": "Complesso ospedaliero moderno completamente attrezzato",
-        "location": "Nigeria",
-        "details": "Progetto ospedaliero a piena capacità dotato di strutture sanitarie e attrezzature moderne."
+        "title": "Costruzione Ospedali e Strutture Sanitarie",
+        "description": "Strutture sanitarie moderne e complessi ospedalieri",
+        "location": "Varie Località",
+        "details": "Costruzione di edifici ospedalieri, poliambulatori, servizi di emergenza ed edifici di supporto medico. Strutture sanitarie a piena capacità dotate di moderne attrezzature e infrastrutture mediche.",
+        "photoCaption": "Costruzione dell'Ospedale Specializzato del 20° Anniversario, Uyo"
       },
       "road": {
-        "title": "Duplicazione della Strada Est-Ovest",
-        "description": "Progetto di costruzione autostradale su larga scala",
-        "location": "Nigeria",
-        "details": "Progetto di modernizzazione e duplicazione dell'autostrada Est-Ovest."
+        "title": "Progetti Stradali, Autostradali e Infrastrutturali",
+        "description": "Progetti completi di infrastrutture di trasporto e autostrade",
+        "location": "Varie Località",
+        "details": "Costruzione di autostrade, ponti, espansione e modernizzazione stradale. Costruzione completa di infrastrutture stradali, sistemi di drenaggio e relative strutture ingegneristiche.",
+        "photoCaption": "Duplicazione della Strada Est-Ovest Sezione V (Est-Oron - Carreggiata Contrattuale)"
+      },
+      "completed": {
+        "project1": {
+          "title": "Aeroporto Internazionale Akwa Ibom Fase I",
+          "client": "Governo dello Stato di Akwa Ibom",
+          "location": "Stato di Akwa Ibom, Nigeria",
+          "awardDate": "2005",
+          "completionDate": "2010",
+          "status": "Completato"
+        },
+        "project2": {
+          "title": "Duplicazione della Strada Abak Uyo",
+          "client": "Governo dello Stato di Akwa Ibom",
+          "location": "Stato di Akwa Ibom, Nigeria",
+          "awardDate": "2004",
+          "completionDate": "2010",
+          "status": "Completato"
+        },
+        "project3": {
+          "title": "Duplicazione della Strada Oron (Sezione II)",
+          "client": "Governo dello Stato di Akwa Ibom - Ministero dei Lavori e Trasporti",
+          "location": "Stato di Akwa Ibom, Nigeria",
+          "awardDate": "2007",
+          "completionDate": "2010",
+          "status": "Completato"
+        },
+        "project4": {
+          "title": "Costruzione del Ponte Rigidi e Strade di Accesso",
+          "client": "Repubblica Federale della Nigeria - Ministero dei Lavori",
+          "location": "Stato di Cross River, Nigeria",
+          "awardDate": "2003",
+          "completionDate": "2013",
+          "status": "Sostanzialmente Completato"
+        },
+        "project5": {
+          "title": "Riabilitazione della Strada Nasarawa Loko",
+          "client": "Repubblica Federale della Nigeria - Ministero dei Lavori",
+          "location": "Stato di Nasarawa, Nigeria",
+          "awardDate": "2006",
+          "completionDate": "2023",
+          "status": "Sostanzialmente Completato"
+        },
+        "project6": {
+          "title": "Completamento del Complesso Presidenziale Shehu Shagari",
+          "client": "Autorità Federale per lo Sviluppo della Capitale",
+          "location": "Stato FCT Abuja, Nigeria",
+          "awardDate": "2006",
+          "completionDate": "2010",
+          "status": "Completato"
+        },
+        "project7": {
+          "title": "Costruzione del Centro Ecumenico Nazionale",
+          "client": "Associazione Cristiana Nazionale",
+          "location": "Stato FCT Abuja, Nigeria",
+          "awardDate": "2005",
+          "completionDate": "2008",
+          "status": "Completato"
+        },
+        "project8": {
+          "title": "Biblioteca e Hotel Presidenziale",
+          "client": "Fondazione OOPL",
+          "location": "Abeokuta, Nigeria",
+          "awardDate": "2005",
+          "completionDate": "2009",
+          "status": "Completato"
+        },
+        "project9": {
+          "title": "Costruzione dell'Ospedale Specializzato del 20° Anniversario, Uyo",
+          "client": "Repubblica Federale della Nigeria - Governo dello Stato di Akwa Ibom",
+          "location": "Stato di Akwa Ibom, Nigeria",
+          "awardDate": "2009",
+          "completionDate": "2014",
+          "status": "Sostanzialmente Completato"
+        },
+        "project10": {
+          "title": "Edificio Prototipo della Filiale di Yenagoa della Banca Centrale della Nigeria",
+          "client": "Banca Centrale della Nigeria",
+          "location": "Stato di Bayelsa, Nigeria",
+          "awardDate": "2010",
+          "completionDate": "2019",
+          "status": "Completato"
+        }
+      },
+      "ongoing": {
+        "project1": {
+          "title": "Duplicazione della Strada Est-Ovest Sezione V (East-Oron - Carreggiata Contrattuale)",
+          "description": "Strada a carreggiata singola a doppia corsia con 6 ponti per una lunghezza totale di 550m.",
+          "client": "Repubblica Federale della Nigeria - Ministero dei Lavori e dell'Edilizia Abitativa",
+          "location": "Stato di Akwa Ibom, Nigeria",
+          "awardDate": "Settembre 2006",
+          "completion": "58%",
+          "status": "In Corso"
+        },
+        "project2": {
+          "title": "Duplicazione dell'Autostrada Abuja-Abaji-Lokoja Sezione IV: Strada Koton-Karfe-Lokoja",
+          "description": "Costruzione di carreggiata singola a doppia corsia lunga 49,43 km con drenaggi allineati di supporto e riabilitazione della carreggiata esistente con costruzione di 7 ponti.",
+          "client": "Repubblica Federale della Nigeria - Dip. Autostrade Ministero dei Lavori",
+          "location": "Stato di Kogi, Nigeria",
+          "awardDate": "Settembre 2006",
+          "completion": "76%",
+          "status": "In Corso con Possibile Aumento"
+        },
+        "project3": {
+          "title": "Completamento della Riabilitazione della Strada Nassarawa-Loko",
+          "description": "Riabilitazione della carreggiata singola esistente con drenaggi e tombini associati.",
+          "client": "Repubblica Federale della Nigeria - Dip. Autostrade Ministero dei Lavori",
+          "location": "Stato di Nassarawa, Nigeria",
+          "awardDate": "Giugno 2015",
+          "completion": "94%",
+          "status": "Sostanzialmente Completato"
+        },
+        "project4": {
+          "title": "Costruzione della Doppia Carreggiata Dual Eket By Pass, Strada Eket-Oron Sezione IV ID752",
+          "description": "Costruzione di 9,75 km di carreggiata doppia dall'incrocio dopo il Ponte Eket sull'allineamento di duplicazione della Strada Est-Ovest esistente.",
+          "client": "Repubblica Federale della Nigeria - Ministero del Delta del Niger",
+          "location": "Stato di Akwa Ibom, Nigeria",
+          "awardDate": "Maggio 2019",
+          "completion": "13%",
+          "status": "In Corso"
+        },
+        "project5": {
+          "title": "Riabilitazione del Centro Cristiano Nazionale",
+          "description": "Riabilitazione del tetto dell'edificio della Chiesa Cristiana esistente.",
+          "client": "Autorità Federale per lo Sviluppo della Capitale (Abuja)",
+          "location": "FCT Abuja",
+          "awardDate": "Febbraio 2021",
+          "completion": "93%",
+          "status": "Sostanzialmente Completato"
+        },
+        "project6": {
+          "title": "Costruzione della Strada Omelema-Agada Fase I",
+          "description": "Costruzione di carreggiata singola a doppia corsia lunga 6,1 km che collega le comunità di Omelema e Agada.",
+          "client": "Repubblica Federale della Nigeria - Ministero del Delta del Niger",
+          "location": "Stato di River, Nigeria",
+          "awardDate": "Dicembre 2010",
+          "completion": "14%",
+          "status": "Sospeso"
+        },
+        "project7": {
+          "title": "Ufficio di Collegamento Osun",
+          "description": "Complesso di uffici a sei piani per lo Stato con parcheggio esterno e sotterraneo e viale d'accesso.",
+          "client": "Stato di Osun",
+          "location": "Stato di Osun, Nigeria",
+          "awardDate": "Agosto 2005",
+          "completion": "60%",
+          "status": "Sospeso"
+        },
+        "project8": {
+          "title": "Aeroporto Internazionale Akwa Ibom Fase I",
+          "description": "Pista di standard internazionale di 3,6 km e 60 m di larghezza e un Apron terminale provvisorio e Apron MRO.",
+          "client": "Governo dello Stato di Akwa Ibom Nigeria",
+          "location": "Stato di Akwa Ibom, Nigeria",
+          "awardDate": "Giugno 2005",
+          "completion": "96%",
+          "status": "Sostanzialmente Completato - Sospeso"
+        },
+        "project9": {
+          "title": "Costruzione dell'Ospedale Specializzato del 20° Anniversario, Uyo",
+          "description": "Edificio principale supportato da un edificio di servizio e edificio ausiliario.",
+          "client": "Repubblica Federale della Nigeria - Governo dello Stato di Akwa Ibom",
+          "location": "Stato di Akwa Ibom, Nigeria",
+          "awardDate": "Maggio 2009",
+          "completion": "91%",
+          "status": "Sostanzialmente Completato - Sospeso"
+        },
+        "project10": {
+          "title": "Costruzione del Ponte Itigidi e Strade di Accesso",
+          "description": "Costruzione di ponte a campate multiple e carreggiata singola a doppia corsia di 26 km con strada di diramazione di circa 1,5 km.",
+          "client": "Repubblica Federale della Nigeria - Ministero dei Lavori",
+          "location": "Stato di Cross River, Nigeria",
+          "awardDate": "Marzo 2003",
+          "completion": "88%",
+          "status": "Sostanzialmente Completato - Sospeso"
+        }
       }
     },
     "equipment": {
@@ -345,6 +948,9 @@
     }
   },
   "ar": {
+    "brand": {
+      "name": "BOSS للإنشاءات"
+    },
     "nav": {
       "home": "الرئيسية",
       "about": "من نحن",
@@ -363,6 +969,13 @@
       "title": "من نحن",
       "subtitle": "شركة BOSS للإنشاءات - رائدة في الصناعة",
       "heading": "الجودة والموثوقية هي عملنا",
+      "companyProfile": "الملف التعريفي للشركة",
+      "foundingTitle": "التأسيس وهيكل الشراكة",
+      "foundingText": "تأسست شركة Boss للمقاولات والتجارة العامة في عام 2016 كشركة مقاولات مقرها أنقرة، تركيا. ولدت الشركة من اندماج مجموعتي بناء قويتين: سالفاتوري جيتو، مالك شركة GITTO Infrastructure LTD العاملة منذ عام 1954، وموسى عكوم، مالك شركة AKKUM Construction Inc. يتكون هيكل الشراكة من 51٪ من أسهم GITTO و 49٪ من أسهم Akkum.",
+      "internationalTitle": "الخبرة الدولية: إرث GITTO Infrastructure",
+      "internationalText": "تمتلك شركة GITTO Infrastructure Ltd، شركتنا الشريكة، تاريخًا عريقًا. قامت الشركة التابعة للمجموعة في نيجيريا، GITTO Nigeria Ltd، بتنفيذ مشاريع مهمة في الساحة الدولية منذ عام 1994. تشمل هذه المشاريع أعمالًا واسعة النطاق مثل الطرق السريعة والمباني العامة والمستشفيات ومشاريع البنية التحتية الشاملة والمطارات.",
+      "turkeyTitle": "العمليات في تركيا: خبرة BOSS",
+      "turkeyText": "تم نقل هذه الخبرة الدولية العميقة لـ GITTO و Akkum إلى المشاريع في تركيا تحت الكيان القانوني BOSS منذ عام 2016. نجحت BOSS في بناء مشاريع حيوية مثل قنوات الري والمباني المؤهلة والطرق ومحطات معالجة مياه الصرف الصحي، متخصصة بشكل خاص في مجالات البنية التحتية والبنية الفوقية في تركيا.",
       "description1": "توفر شركة BOSS للإنشاءات أعلى خدمة جودة لعملائنا بتقنيات البناء الحديثة وسنوات من الخبرة. نعمل مع فريق متخصص في مشاريع واسعة النطاق مثل المطارات والمستشفيات وبناء الطرق.",
       "description2": "شهادات الأيزو الخاصة بنا والمشاريع المكتملة هي أكبر دليل على معايير الجودة لدينا. نعطي الأولوية لرضا العملاء والجودة في كل مشروع.",
       "certified": "معتمد",
@@ -401,27 +1014,214 @@
     "projects": {
       "title": "مشاريعنا",
       "subtitle": "المشاريع المكتملة بنجاح",
+      "completedTitle": "المشاريع المكتملة",
+      "ongoingTitle": "المشاريع الجارية",
+      "projectTypesTitle": "خبرتنا",
       "viewDetails": "عرض التفاصيل",
       "close": "إغلاق",
       "location": "الموقع",
       "year": "السنة",
+      "client": "العميل",
+      "awardDate": "تاريخ الترسية",
+      "completionDate": "تاريخ الإنجاز",
+      "status": "الحالة",
+      "completion": "نسبة الإنجاز",
+      "noCompletedProjects": "لا توجد مشاريع مكتملة في هذه الفئة",
+      "noOngoingProjects": "لا توجد مشاريع جارية في هذه الفئة",
       "airport": {
-        "title": "بناء مدرج ومحطة مطار أكوا إيبوم الدولي",
-        "description": "مشروع بناء مدرج ومحطة مطار حديث",
-        "location": "أكوا إيبوم، نيجيريا",
-        "details": "مشروع بنية تحتية شامل يشمل البناء الكامل لمدرج المطار ومرافق المحطة."
+        "title": "بناء مدرج ومحطة المطار",
+        "description": "مشاريع البنية التحتية للمطارات بمعايير دولية",
+        "location": "مواقع مختلفة",
+        "details": "بناء شامل للمدرجات ومباني المحطات ومناطق المواقف وأنظمة البنية التحتية للمطارات. مرافق طيران بمعايير دولية ومشاريع البنية التحتية الفنية ذات الصلة.",
+        "photoCaption": "مطار أكوا إيبوم الدولي المرحلة الأولى"
       },
       "hospital": {
-        "title": "مستشفى الذكرى العشرين",
-        "description": "مجمع مستشفى حديث مجهز بالكامل",
-        "location": "نيجيريا",
-        "details": "مشروع مستشفى بسعة كاملة مجهز بمرافق رعاية صحية ومعدات حديثة."
+        "title": "بناء المستشفيات والمرافق الصحية",
+        "description": "مرافق رعاية صحية حديثة ومجمعات مستشفيات",
+        "location": "مواقع مختلفة",
+        "details": "بناء مباني المستشفيات والعيادات المتعددة وخدمات الطوارئ ومباني الدعم الطبي. مرافق رعاية صحية بكامل طاقتها مجهزة بمعدات وبنية تحتية طبية حديثة.",
+        "photoCaption": "بناء مستشفى الذكرى العشرين المتخصص، أويو"
       },
       "road": {
-        "title": "تحويل طريق الشرق-الغرب إلى مزدوج",
-        "description": "مشروع بناء طريق سريع واسع النطاق",
-        "location": "نيجيريا",
-        "details": "مشروع تحديث وتحويل الطريق السريع الشرق-الغرب إلى مزدوج."
+        "title": "مشاريع الطرق والطرق السريعة والبنية التحتية",
+        "description": "مشاريع شاملة للبنية التحتية للنقل والطرق السريعة",
+        "location": "مواقع مختلفة",
+        "details": "بناء الطرق السريعة وبناء الجسور وتوسيع وتحديث الطرق. بناء شامل للبنية التحتية للطرق وأنظمة الصرف والهياكل الهندسية ذات الصلة.",
+        "photoCaption": "ازدواجية طريق الشرق-الغرب القسم الخامس (شرق-أورون - طريق العقد)"
+      },
+      "completed": {
+        "project1": {
+          "title": "مطار أكوا إيبوم الدولي المرحلة الأولى",
+          "client": "حكومة ولاية أكوا إيبوم",
+          "location": "ولاية أكوا إيبوم، نيجيريا",
+          "awardDate": "2005",
+          "completionDate": "2010",
+          "status": "مكتمل"
+        },
+        "project2": {
+          "title": "تحويل طريق أباك أويو إلى مزدوج",
+          "client": "حكومة ولاية أكوا إيبوم",
+          "location": "ولاية أكوا إيبوم، نيجيريا",
+          "awardDate": "2004",
+          "completionDate": "2010",
+          "status": "مكتمل"
+        },
+        "project3": {
+          "title": "تحويل طريق أورون إلى مزدوج (القسم الثاني)",
+          "client": "حكومة ولاية أكوا إيبوم - وزارة الأشغال والنقل",
+          "location": "ولاية أكوا إيبوم، نيجيريا",
+          "awardDate": "2007",
+          "completionDate": "2010",
+          "status": "مكتمل"
+        },
+        "project4": {
+          "title": "بناء جسر ريجيدي والطرق المؤدية إليه",
+          "client": "جمهورية نيجيريا الاتحادية - وزارة الأشغال",
+          "location": "ولاية كروس ريفر، نيجيريا",
+          "awardDate": "2003",
+          "completionDate": "2013",
+          "status": "مكتمل إلى حد كبير"
+        },
+        "project5": {
+          "title": "إعادة تأهيل طريق ناساراوا لوكو",
+          "client": "جمهورية نيجيريا الاتحادية - وزارة الأشغال",
+          "location": "ولاية ناساراوا، نيجيريا",
+          "awardDate": "2006",
+          "completionDate": "2023",
+          "status": "مكتمل إلى حد كبير"
+        },
+        "project6": {
+          "title": "إنجاز مجمع شيهو شاغاري الرئاسي",
+          "client": "هيئة تطوير العاصمة الاتحادية",
+          "location": "ولاية أبوجا العاصمة الاتحادية، نيجيريا",
+          "awardDate": "2006",
+          "completionDate": "2010",
+          "status": "مكتمل"
+        },
+        "project7": {
+          "title": "بناء المركز المسكوني الوطني",
+          "client": "الجمعية المسيحية الوطنية",
+          "location": "ولاية أبوجا العاصمة الاتحادية، نيجيريا",
+          "awardDate": "2005",
+          "completionDate": "2008",
+          "status": "مكتمل"
+        },
+        "project8": {
+          "title": "المكتبة والفندق الرئاسي",
+          "client": "مؤسسة OOPL",
+          "location": "أبيوكوتا، نيجيريا",
+          "awardDate": "2005",
+          "completionDate": "2009",
+          "status": "مكتمل"
+        },
+        "project9": {
+          "title": "بناء مستشفى الذكرى العشرين المتخصص، أويو",
+          "client": "جمهورية نيجيريا الاتحادية - حكومة ولاية أكوا إيبوم",
+          "location": "ولاية أكوا إيبوم، نيجيريا",
+          "awardDate": "2009",
+          "completionDate": "2014",
+          "status": "مكتمل إلى حد كبير"
+        },
+        "project10": {
+          "title": "مبنى النموذج الأولي لفرع ييناغوا للبنك المركزي النيجيري",
+          "client": "البنك المركزي النيجيري",
+          "location": "ولاية بايلسا، نيجيريا",
+          "awardDate": "2010",
+          "completionDate": "2019",
+          "status": "مكتمل"
+        }
+      },
+      "ongoing": {
+        "project1": {
+          "title": "تحويل طريق الشرق-الغرب إلى مزدوج القسم الخامس (شرق-أورون - الطريق التعاقدي)",
+          "description": "طريق مزدوج أحادي الاتجاه مع 6 جسور بطول إجمالي 550 مترًا.",
+          "client": "جمهورية نيجيريا الاتحادية - وزارة الأشغال والإسكان",
+          "location": "ولاية أكوا إيبوم، نيجيريا",
+          "awardDate": "سبتمبر 2006",
+          "completion": "58%",
+          "status": "جاري التنفيذ"
+        },
+        "project2": {
+          "title": "تحويل طريق أبوجا-أباجي-لوكوجا السريع القسم الرابع: طريق كوتون-كارفي-لوكوجا",
+          "description": "بناء طريق مزدوج أحادي الاتجاه بطول 49.43 كم مع مصارف صف داعمة وإعادة تأهيل الطريق الحالي مع بناء 7 جسور.",
+          "client": "جمهورية نيجيريا الاتحادية - قسم الطرق السريعة بوزارة الأشغال",
+          "location": "ولاية كوجي، نيجيريا",
+          "awardDate": "سبتمبر 2006",
+          "completion": "76%",
+          "status": "جاري التنفيذ مع زيادة محتملة"
+        },
+        "project3": {
+          "title": "إكمال إعادة تأهيل طريق ناساراوا-لوكو",
+          "description": "إعادة تأهيل الطريق الأحادي الاتجاه الحالي مع المصارف والقناطر المرتبطة.",
+          "client": "جمهورية نيجيريا الاتحادية - قسم الطرق السريعة بوزارة الأشغال",
+          "location": "ولاية ناساراوا، نيجيريا",
+          "awardDate": "يونيو 2015",
+          "completion": "94%",
+          "status": "مكتمل إلى حد كبير"
+        },
+        "project4": {
+          "title": "بناء طريق إيكيت باي باس المزدوج، طريق إيكيت-أورون القسم الرابع ID752",
+          "description": "بناء 9.75 كم من الطريق المزدوج من التقاطع بعد جسر إيكيت على محاذاة تحويل طريق الشرق-الغرب الحالي.",
+          "client": "جمهورية نيجيريا الاتحادية - وزارة دلتا النيجر",
+          "location": "ولاية أكوا إيبوم، نيجيريا",
+          "awardDate": "مايو 2019",
+          "completion": "13%",
+          "status": "جاري التنفيذ"
+        },
+        "project5": {
+          "title": "إعادة تأهيل المركز المسيحي الوطني",
+          "description": "إعادة تأهيل سقف مبنى الكنيسة المسيحية الحالي.",
+          "client": "هيئة تطوير العاصمة الاتحادية (أبوجا)",
+          "location": "أبوجا العاصمة الاتحادية",
+          "awardDate": "فبراير 2021",
+          "completion": "93%",
+          "status": "مكتمل إلى حد كبير"
+        },
+        "project6": {
+          "title": "بناء طريق أوميليما-أغادا المرحلة الأولى",
+          "description": "بناء طريق مزدوج أحادي الاتجاه بطول 6.1 كم يربط مجتمعي أوميليما وأغادا.",
+          "client": "جمهورية نيجيريا الاتحادية - وزارة دلتا النيجر",
+          "location": "ولاية ريفر، نيجيريا",
+          "awardDate": "ديسمبر 2010",
+          "completion": "14%",
+          "status": "متوقف"
+        },
+        "project7": {
+          "title": "مكتب الاتصال لولاية أوسون",
+          "description": "مجمع مكاتب من ستة طوابق للولاية مع موقف سيارات خارجي وتحت الأرض وممر.",
+          "client": "ولاية أوسون",
+          "location": "ولاية أوسون، نيجيريا",
+          "awardDate": "أغسطس 2005",
+          "completion": "60%",
+          "status": "متوقف"
+        },
+        "project8": {
+          "title": "مطار أكوا إيبوم الدولي المرحلة الأولى",
+          "description": "مدرج بمواصفات دولية بطول 3.6 كم وعرض 60 م ومنطقة توقف محطة مؤقتة ومنطقة MRO.",
+          "client": "حكومة ولاية أكوا إيبوم نيجيريا",
+          "location": "ولاية أكوا إيبوم، نيجيريا",
+          "awardDate": "يونيو 2005",
+          "completion": "96%",
+          "status": "مكتمل إلى حد كبير - متوقف"
+        },
+        "project9": {
+          "title": "بناء مستشفى الذكرى العشرين المتخصص، أويو",
+          "description": "مبنى رئيسي مدعوم بمبنى خدمات ومبنى مساعد.",
+          "client": "جمهورية نيجيريا الاتحادية - حكومة ولاية أكوا إيبوم",
+          "location": "ولاية أكوا إيبوم، نيجيريا",
+          "awardDate": "مايو 2009",
+          "completion": "91%",
+          "status": "مكتمل إلى حد كبير - متوقف"
+        },
+        "project10": {
+          "title": "بناء جسر إيتيجيدي والطرق المؤدية إليه",
+          "description": "بناء جسر متعدد الامتدادات وطريق مزدوج أحادي الاتجاه بطول 26 كم مع طريق فرعي بطول حوالي 1.5 كم.",
+          "client": "جمهورية نيجيريا الاتحادية - وزارة الأشغال",
+          "location": "ولاية كروس ريفر، نيجيريا",
+          "awardDate": "مارس 2003",
+          "completion": "88%",
+          "status": "مكتمل إلى حد كبير - متوقف"
+        }
       }
     },
     "equipment": {
