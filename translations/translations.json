@@ -1,7 +1,7 @@
 {
   "tr": {
     "brand": {
-      "name": "BOSS İNŞAAT"
+      "name": "BOSS MÜTEAHHİTLİK"
     },
     "nav": {
       "home": "Ana Sayfa",
@@ -19,16 +19,16 @@
     },
     "about": {
       "title": "Hakkımızda",
-      "subtitle": "BOSS İnşaat olarak sektörde öncü konumdayız",
+      "subtitle": "Boss Müteahhitlik olarak sektörde öncü konumdayız",
       "heading": "Kalite ve Güvenilirlik Bizim İşimiz",
       "companyProfile": "Şirket Profili",
       "foundingTitle": "Kuruluş ve Ortaklık Yapısı",
-      "foundingText": "Boss Genel Müteahhitlik ve Ticaret AŞ, 2016 yılında Ankara, Türkiye merkezli olarak kurulmuş bir taahhüt firmasıdır. Şirket, iki güçlü inşaat grubunun birleşmesiyle doğmuştur: 1954 yılından beri faaliyette olan GITTO Infrastructure LTD'nin sahibi Salvatore GITTO ve AKKUM İnşaat AŞ'nin sahibi Faruk AKKUM. Ortaklık yapısı %51 GITTO ve %49 Akkum hisselerinden oluşmaktadır.",
+      "foundingText": "Boss Müteahhitlik ve Ticaret AŞ, 2016 yılında Ankara, Türkiye merkezli olarak kurulmuş bir taahhüt firmasıdır. Şirket, iki güçlü inşaat grubunun birleşmesiyle doğmuştur: 1954 yılından beri faaliyette olan GITTO Infrastructure LTD'nin sahibi Salvatore GITTO ve AKKUM İnşaat AŞ'nin sahibi Faruk AKKUM. Ortaklık yapısı %51 GITTO ve %49 Akkum hisselerinden oluşmaktadır.",
       "internationalTitle": "Uluslararası Deneyim: GITTO Infrastructure Mirası",
       "internationalText": "Şirketimizin ortağı olan GITTO Infrastructure Ltd, köklü bir geçmişe sahiptir. Grubun Nijerya iştiraki olan GITTO Nigeria Ltd, 1994 yılından bu yana uluslararası arenada önemli projelere imza atmıştır. Bu projeler arasında otoyollar, kamu binaları, hastaneler, kapsamlı altyapı projeleri ve havalimanları gibi büyük ölçekli işler bulunmaktadır.",
       "turkeyTitle": "Türkiye'deki Faaliyetler: BOSS Uzmanlığı",
       "turkeyText": "GITTO'nun ve Akkum'un bu derin uluslararası deneyimi, 2016 yılından itibaren BOSS tüzel kişiliği adı altında Türkiye'deki projelere aktarılmıştır. BOSS, Türkiye'de özellikle altyapı ve üstyapı alanlarında uzmanlaşarak sulama kanalları, nitelikli binalar, yollar ve atıksu arıtma tesisleri gibi kritik projeleri başarıyla inşa etmiştir.",
-      "description1": "BOSS İnşaat, modern inşaat teknolojileri ve yıllarca süren deneyimimizle müşterilerimize en kaliteli hizmeti sunmaktayız. Havaalanı, hastane, yol yapımı gibi büyük ölçekli projelerde uzmanlaşmış bir ekiple çalışıyoruz.",
+      "description1": "Boss Müteahhitlik, modern inşaat teknolojileri ve yıllarca süren deneyimimizle müşterilerimize en kaliteli hizmeti sunmaktayız. Havaalanı, hastane, yol yapımı gibi büyük ölçekli projelerde uzmanlaşmış bir ekiple çalışıyoruz.",
       "description2": "ISO sertifikalarımız ve tamamlanmış projelerimiz, kalite standartlarımızın en büyük kanıtıdır. Her projede müşteri memnuniyeti ve kaliteyi ön planda tutuyoruz.",
       "certified": "Sertifikalı",
       "projects": "Tamamlanan Proje",
@@ -314,7 +314,7 @@
   },
   "en": {
     "brand": {
-      "name": "BOSS CONSTRUCTION"
+      "name": "BOSS CONTRACTING"
     },
     "nav": {
       "home": "Home",
@@ -332,16 +332,16 @@
     },
     "about": {
       "title": "About Us",
-      "subtitle": "BOSS Construction - Leading the industry",
+      "subtitle": "Boss Contracting - Leading the industry",
       "heading": "Quality and Reliability is Our Business",
       "companyProfile": "Company Profile",
       "foundingTitle": "Founding and Partnership Structure",
-      "foundingText": "Boss General Contracting and Trading Inc. was established in 2016 as a contracting company based in Ankara, Turkey. The company was born from the merger of two strong construction groups: Salvatore GITTO, owner of GITTO Infrastructure LTD operating since 1954, and Faruk AKKUM, owner of AKKUM Construction Inc. The partnership structure consists of 51% GITTO and 49% Akkum shares.",
+      "foundingText": "Boss Contracting and Trading Inc. was established in 2016 as a contracting company based in Ankara, Turkey. The company was born from the merger of two strong construction groups: Salvatore GITTO, owner of GITTO Infrastructure LTD operating since 1954, and Faruk AKKUM, owner of AKKUM Construction Inc. The partnership structure consists of 51% GITTO and 49% Akkum shares.",
       "internationalTitle": "International Experience: GITTO Infrastructure Legacy",
       "internationalText": "GITTO Infrastructure Ltd, our partner company, has a deep-rooted history. The group's Nigerian subsidiary, GITTO Nigeria Ltd, has been delivering significant projects in the international arena since 1994. These projects include large-scale works such as highways, public buildings, hospitals, comprehensive infrastructure projects, and airports.",
       "turkeyTitle": "Operations in Turkey: BOSS Expertise",
       "turkeyText": "This deep international experience of GITTO and Akkum has been transferred to projects in Turkey under the BOSS legal entity since 2016. BOSS has successfully constructed critical projects such as irrigation channels, qualified buildings, roads, and wastewater treatment plants, specializing particularly in infrastructure and superstructure areas in Turkey.",
-      "description1": "BOSS Construction provides the highest quality service to our customers with modern construction technologies and years of experience. We work with a specialized team on large-scale projects such as airports, hospitals, and road construction.",
+      "description1": "Boss Contracting provides the highest quality service to our customers with modern construction technologies and years of experience. We work with a specialized team on large-scale projects such as airports, hospitals, and road construction.",
       "description2": "Our ISO certifications and completed projects are the greatest proof of our quality standards. We prioritize customer satisfaction and quality in every project.",
       "certified": "Certified",
       "projects": "Completed Projects",
@@ -637,7 +637,7 @@
   },
   "it": {
     "brand": {
-      "name": "BOSS COSTRUZIONI"
+      "name": "BOSS APPALTI"
     },
     "nav": {
       "home": "Home",
@@ -655,16 +655,16 @@
     },
     "about": {
       "title": "Chi Siamo",
-      "subtitle": "BOSS Construction - Leader nel settore",
+      "subtitle": "Boss Appalti - Leader nel settore",
       "heading": "Qualità e Affidabilità è il Nostro Lavoro",
       "companyProfile": "Profilo Aziendale",
       "foundingTitle": "Fondazione e Struttura della Partnership",
-      "foundingText": "Boss General Contracting and Trading Inc. è stata fondata nel 2016 come società di appalti con sede ad Ankara, Turchia. L'azienda è nata dalla fusione di due forti gruppi di costruzione: Salvatore Gitto, proprietario di GITTO Infrastructure LTD operante dal 1954, e Musa Akkum, proprietario di AKKUM Construction Inc. La struttura della partnership è composta dal 51% di azioni GITTO e dal 49% di azioni Akkum.",
+      "foundingText": "Boss Appalti e Commercio S.p.A. è stata fondata nel 2016 come società di appalti con sede ad Ankara, Turchia. L'azienda è nata dalla fusione di due forti gruppi di costruzione: Salvatore Gitto, proprietario di GITTO Infrastructure LTD operante dal 1954, e Musa Akkum, proprietario di AKKUM Construction Inc. La struttura della partnership è composta dal 51% di azioni GITTO e dal 49% di azioni Akkum.",
       "internationalTitle": "Esperienza Internazionale: L'eredità di GITTO Infrastructure",
       "internationalText": "GITTO Infrastructure Ltd, la nostra azienda partner, ha una storia profondamente radicata. La filiale nigeriana del gruppo, GITTO Nigeria Ltd, ha realizzato progetti significativi nell'arena internazionale dal 1994. Questi progetti includono lavori su larga scala come autostrade, edifici pubblici, ospedali, progetti infrastrutturali completi e aeroporti.",
       "turkeyTitle": "Operazioni in Turchia: L'expertise di BOSS",
       "turkeyText": "Questa profonda esperienza internazionale di GITTO e Akkum è stata trasferita ai progetti in Turchia sotto l'entità legale BOSS dal 2016. BOSS ha costruito con successo progetti critici come canali di irrigazione, edifici qualificati, strade e impianti di trattamento delle acque reflue, specializzandosi particolarmente nelle aree infrastrutturali e sovrastrutturali in Turchia.",
-      "description1": "BOSS Construction fornisce il servizio di massima qualità ai nostri clienti con tecnologie di costruzione moderne e anni di esperienza. Lavoriamo con un team specializzato su progetti su larga scala come aeroporti, ospedali e costruzione di strade.",
+      "description1": "Boss Appalti fornisce il servizio di massima qualità ai nostri clienti con tecnologie di costruzione moderne e anni di esperienza. Lavoriamo con un team specializzato su progetti su larga scala come aeroporti, ospedali e costruzione di strade.",
       "description2": "Le nostre certificazioni ISO e i progetti completati sono la prova maggiore dei nostri standard di qualità. Diamo priorità alla soddisfazione del cliente e alla qualità in ogni progetto.",
       "certified": "Certificato",
       "projects": "Progetti Completati",
@@ -949,7 +949,7 @@
   },
   "ar": {
     "brand": {
-      "name": "BOSS للإنشاءات"
+      "name": "BOSS للمقاولات"
     },
     "nav": {
       "home": "الرئيسية",
@@ -967,16 +967,16 @@
     },
     "about": {
       "title": "من نحن",
-      "subtitle": "شركة BOSS للإنشاءات - رائدة في الصناعة",
+      "subtitle": "Boss للمقاولات - رائدة في الصناعة",
       "heading": "الجودة والموثوقية هي عملنا",
       "companyProfile": "الملف التعريفي للشركة",
       "foundingTitle": "التأسيس وهيكل الشراكة",
-      "foundingText": "تأسست شركة Boss للمقاولات والتجارة العامة في عام 2016 كشركة مقاولات مقرها أنقرة، تركيا. ولدت الشركة من اندماج مجموعتي بناء قويتين: سالفاتوري جيتو، مالك شركة GITTO Infrastructure LTD العاملة منذ عام 1954، وموسى عكوم، مالك شركة AKKUM Construction Inc. يتكون هيكل الشراكة من 51٪ من أسهم GITTO و 49٪ من أسهم Akkum.",
+      "foundingText": "تأسست شركة Boss للمقاولات والتجارة في عام 2016 كشركة مقاولات مقرها أنقرة، تركيا. ولدت الشركة من اندماج مجموعتي بناء قويتين: سالفاتوري جيتو، مالك شركة GITTO Infrastructure LTD العاملة منذ عام 1954، وموسى عكوم، مالك شركة AKKUM Construction Inc. يتكون هيكل الشراكة من 51٪ من أسهم GITTO و 49٪ من أسهم Akkum.",
       "internationalTitle": "الخبرة الدولية: إرث GITTO Infrastructure",
       "internationalText": "تمتلك شركة GITTO Infrastructure Ltd، شركتنا الشريكة، تاريخًا عريقًا. قامت الشركة التابعة للمجموعة في نيجيريا، GITTO Nigeria Ltd، بتنفيذ مشاريع مهمة في الساحة الدولية منذ عام 1994. تشمل هذه المشاريع أعمالًا واسعة النطاق مثل الطرق السريعة والمباني العامة والمستشفيات ومشاريع البنية التحتية الشاملة والمطارات.",
       "turkeyTitle": "العمليات في تركيا: خبرة BOSS",
       "turkeyText": "تم نقل هذه الخبرة الدولية العميقة لـ GITTO و Akkum إلى المشاريع في تركيا تحت الكيان القانوني BOSS منذ عام 2016. نجحت BOSS في بناء مشاريع حيوية مثل قنوات الري والمباني المؤهلة والطرق ومحطات معالجة مياه الصرف الصحي، متخصصة بشكل خاص في مجالات البنية التحتية والبنية الفوقية في تركيا.",
-      "description1": "توفر شركة BOSS للإنشاءات أعلى خدمة جودة لعملائنا بتقنيات البناء الحديثة وسنوات من الخبرة. نعمل مع فريق متخصص في مشاريع واسعة النطاق مثل المطارات والمستشفيات وبناء الطرق.",
+      "description1": "توفر شركة Boss للمقاولات أعلى خدمة جودة لعملائنا بتقنيات البناء الحديثة وسنوات من الخبرة. نعمل مع فريق متخصص في مشاريع واسعة النطاق مثل المطارات والمستشفيات وبناء الطرق.",
       "description2": "شهادات الأيزو الخاصة بنا والمشاريع المكتملة هي أكبر دليل على معايير الجودة لدينا. نعطي الأولوية لرضا العملاء والجودة في كل مشروع.",
       "certified": "معتمد",
       "projects": "المشاريع المكتملة",

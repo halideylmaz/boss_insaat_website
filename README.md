@@ -1,6 +1,6 @@
-# BOSS İNŞAAT - Professional Construction Company Website
+# BOSS MÜTEAHHİTLİK - Professional Contracting Company Website
 
-A modern, fully responsive, and multilingual website for BOSS General Contracting and Trading Inc., showcasing the company's expertise in airport construction, hospital facilities, road infrastructure, and building projects.
+A modern, fully responsive, and multilingual website for BOSS Contracting and Trading Inc., showcasing the company's expertise in airport construction, hospital facilities, road infrastructure, and building projects.
 
 ## 🌍 Multilingual Support
 
@@ -8,10 +8,10 @@ The website supports **4 languages** with automatic content switching:
 
 | Language | Display | Features |
 |----------|---------|----------|
-| 🇹🇷 **Turkish** | BOSS İNŞAAT | Default language |
-| 🇬🇧 **English** | BOSS CONSTRUCTION | International clients |
-| 🇮🇹 **Italian** | BOSS COSTRUZIONI | European market |
-| 🇸🇦 **Arabic** | BOSS للإنشاءات | Middle East market + RTL support |
+| 🇹🇷 **Turkish** | BOSS MÜTEAHHİTLİK | Default language |
+| 🇬🇧 **English** | BOSS CONTRACTING | International clients |
+| 🇮🇹 **Italian** | BOSS APPALTI | European market |
+| 🇸🇦 **Arabic** | BOSS للمقاولات | Middle East market + RTL support |
 
 - **Automatic Language Detection** - Remembers user's language preference
 - **Dynamic Brand Translation** - Company name adapts to each language
@@ -510,8 +510,8 @@ Planned features for future versions:
 
 ## 📄 License
 
-This website is created exclusively for BOSS General Contracting and Trading Inc.  
-All rights reserved © 2016-2024 BOSS İnşaat
+This website is created exclusively for BOSS Contracting and Trading Inc.  
+All rights reserved © 2016-2025 Boss Müteahhitlik
 
 ## 👨‍💻 Developer Notes
 
@@ -553,9 +553,9 @@ For website customization requests or bug reports, please contact the developmen
 
 ---
 
-**Built with ❤️ for BOSS İnşaat**
+**Built with ❤️ for Boss Müteahhitlik**
 
-*Last Updated: October 30, 2024*
+*Last Updated: October 31, 2025*
 
-**Version**: 2.0  
+**Version**: 1.0  
 **Status**: Production Ready ✅
