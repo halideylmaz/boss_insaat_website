@@ -287,7 +287,8 @@
       "grader": "Greyder",
       "loader": "Yükleyici",
       "crane": "Vinç",
-      "other": "Diğer"
+      "other": "Diğer",
+      "units": "adet"
     },
     "contact": {
       "title": "İletişim",
@@ -610,7 +611,8 @@
       "grader": "Grader",
       "loader": "Loader",
       "crane": "Crane",
-      "other": "Other"
+      "other": "Other",
+      "units": "units"
     },
     "contact": {
       "title": "Contact",
@@ -922,7 +924,8 @@
       "grader": "Livellatrice",
       "loader": "Caricatore",
       "crane": "Gru",
-      "other": "Altro"
+      "other": "Altro",
+      "units": "unità"
     },
     "contact": {
       "title": "Contatto",
@@ -1234,7 +1237,8 @@
       "grader": "ممهدة",
       "loader": "لودر",
       "crane": "رافعة",
-      "other": "أخرى"
+      "other": "أخرى",
+      "units": "وحدة"
     },
     "contact": {
       "title": "اتصل بنا",
