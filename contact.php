@@ -11,8 +11,8 @@
  */
 
 // Configuration
-$to_email = "info@bossinsaat.com"; // Change this to your email
-$subject_prefix = "New Contact from BOSS İnşaat Website";
+$to_email = "info@bossmuteahhitlik.com"; // Change this to your email
+$subject_prefix = "New Contact from BOSS Müteahhitlik Website";
 
 // Enable error reporting for debugging (disable in production)
 // error_reporting(E_ALL);

@@ -273,8 +273,8 @@ vercel
 **Contact Details** (index.html, Contact Section):
 ```html
 <p>Ankara, Türkiye</p>          <!-- Your address -->
-<p>+90 XXX XXX XX XX</p>        <!-- Your phone -->
-<p>info@bossinsaat.com</p>      <!-- Your email -->
+<p>+90 532 568 42 56</p>        <!-- Your phone -->
+<p>info@bossmuteahhitlik.com</p>      <!-- Your email -->
 ```
 
 ### Add/Edit Translations
@@ -534,8 +534,8 @@ All rights reserved © 2016-2025 Boss Müteahhitlik
 
 For technical support or questions about this website:
 
-- **Email**: info@bossinsaat.com
-- **Website**: [Your domain]
+- **Email**: info@bossmuteahhitlik.com
+- **Website**: bossmuteahhitlik.com
 - **Location**: Ankara, Turkey
 
 For website customization requests or bug reports, please contact the development team.
