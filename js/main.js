@@ -101,6 +101,85 @@ function updatePageContent(lang) {
             element.placeholder = value;
         }
     });
+    
+    // Convert numbers to Arabic numerals if language is Arabic
+    if (lang === 'ar') {
+        convertNumbersToArabic();
+    } else {
+        // Restore original numbers for other languages
+        restoreOriginalNumbers();
+    }
+}
+
+// ============================================
+// Convert Western Numbers to Eastern Arabic Numerals
+// ============================================
+function convertNumbersToArabic() {
+    const arabicNumerals = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
+    
+    // Convert numbers in equipment cards and other numeric content
+    document.querySelectorAll('[data-translate="equipment.units"]').forEach(element => {
+        const parent = element.closest('p');
+        if (parent) {
+            const originalText = parent.textContent;
+            // Store original if not already stored
+            if (!parent.hasAttribute('data-original-text')) {
+                parent.setAttribute('data-original-text', originalText);
+            }
+            
+            const arabicText = originalText.replace(/\d/g, (digit) => arabicNumerals[digit]);
+            parent.textContent = arabicText;
+        }
+    });
+    
+    // Convert stats numbers in about section
+    document.querySelectorAll('.stat-box h4').forEach(element => {
+        if (!element.hasAttribute('data-original-text')) {
+            element.setAttribute('data-original-text', element.textContent);
+        }
+        const originalText = element.getAttribute('data-original-text');
+        const arabicText = originalText.replace(/\d/g, (digit) => arabicNumerals[digit]);
+        element.textContent = arabicText;
+    });
+    
+    // Convert phone numbers
+    document.querySelectorAll('.contact-item p').forEach(element => {
+        const text = element.textContent;
+        if (text.includes('+') || text.match(/\d{3,}/)) {
+            if (!element.hasAttribute('data-original-text')) {
+                element.setAttribute('data-original-text', text);
+            }
+            const arabicText = text.replace(/\d/g, (digit) => arabicNumerals[digit]);
+            element.textContent = arabicText;
+        }
+    });
+}
+
+// ============================================
+// Restore Original Numbers
+// ============================================
+function restoreOriginalNumbers() {
+    // Restore all elements with stored original numbers
+    document.querySelectorAll('[data-original-text]').forEach(element => {
+        const original = element.getAttribute('data-original-text');
+        if (element.closest('p') && element.hasAttribute('data-translate')) {
+            // For equipment units, restore parent paragraph
+            const parent = element.closest('p');
+            if (parent.hasAttribute('data-original-text')) {
+                parent.textContent = parent.getAttribute('data-original-text');
+                // Re-apply translation to the span
+                const langData = translations[currentLanguage];
+                const key = element.getAttribute('data-translate');
+                const value = getNestedTranslation(langData, key);
+                const spanElement = parent.querySelector('[data-translate="equipment.units"]');
+                if (spanElement && value) {
+                    spanElement.textContent = value;
+                }
+            }
+        } else {
+            element.textContent = original;
+        }
+    });
 }
 
 // ============================================
